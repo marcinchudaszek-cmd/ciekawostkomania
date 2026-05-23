@@ -4,3 +4,8 @@ dist-cap/
 .env
 .env.local
 *.local
+
+# Android build artifacts (keep android/ source, ignore build outputs)
+android/.gradle/
+android/app/build/
+android/build/

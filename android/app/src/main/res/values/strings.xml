@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CiekawostkoMania</string>
+    <string name="title_activity_main">CiekawostkoMania</string>
+    <string name="package_name">com.ciekawostkomania.app</string>
+    <string name="custom_url_scheme">com.ciekawostkomania.app</string>
+</resources>
