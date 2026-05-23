@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\marci\\\\Desktop\\\\pliki z aplikacji\\\\inne-projekty\\\\random-facts-app-development\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(find \"/mnt/c/Users/marci/Desktop/pliki z aplikacji/inne-projekty/random-facts-app-development\" -type f -o -type d | head -100)",
+      "Bash(ls -la \"/mnt/c/Users/marci/Desktop/\" | head -20)",
+      "Bash(npx tsc *)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(npm run *)",
+      "Bash(gh auth *)",
+      "PowerShell(gh auth status 2>&1)"
+    ]
+  }
+}

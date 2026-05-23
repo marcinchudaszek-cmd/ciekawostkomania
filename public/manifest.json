@@ -1,0 +1,18 @@
+{
+  "name": "CiekawostkoMania",
+  "short_name": "Ciekawostki",
+  "description": "Odkryj fascynujący świat wiedzy — nauka, historia, kosmos, przyroda i wiele więcej!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#a855f7",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "/og-preview.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
