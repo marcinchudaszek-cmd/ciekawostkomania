@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1024px;
+    height: 500px;
+    overflow: hidden;
+    font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #7c3aed 100%);
+    position: relative;
+  }
+
+  /* Dekoracyjne kółka */
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.07);
+  }
+  .c1 { width: 300px; height: 300px; top: -80px; left: -60px; }
+  .c2 { width: 200px; height: 200px; bottom: -60px; right: 80px; background: rgba(255,255,255,0.05); }
+  .c3 { width: 120px; height: 120px; top: 40px; right: 200px; background: rgba(255,255,255,0.06); }
+  .c4 { width: 80px; height: 80px; bottom: 60px; left: 300px; }
+
+  /* Kategorie (kolorowe pigułki) */
+  .tags {
+    position: absolute;
+    bottom: 36px;
+    left: 60px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 600px;
+  }
+  .tag {
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: white;
+    opacity: 0.9;
+  }
+
+  /* Lewa strona — tekst */
+  .left {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -20px;
+  }
+  .app-name {
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+    letter-spacing: -2px;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  .app-name span {
+    color: #fde68a;
+  }
+  .tagline {
+    font-size: 22px;
+    color: rgba(255,255,255,0.85);
+    margin-top: 14px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  .stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 30px;
+    padding: 8px 18px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .stat strong { color: #fde68a; font-size: 22px; }
+
+  /* Prawa strona — żarówka */
+  .right {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right svg {
+    width: 260px;
+    height: 260px;
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.35));
+  }
+
+  /* Gwiazdki */
+  .star {
+    position: absolute;
+    background: #fde68a;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+  <div class="circle c1"></div>
+  <div class="circle c2"></div>
+  <div class="circle c3"></div>
+  <div class="circle c4"></div>
+
+  <div class="star" style="width:8px;height:8px;top:60px;right:380px;"></div>
+  <div class="star" style="width:5px;height:5px;top:140px;right:340px;opacity:0.5"></div>
+  <div class="star" style="width:6px;height:6px;bottom:80px;right:420px;"></div>
+  <div class="star" style="width:4px;height:4px;top:200px;left:500px;opacity:0.5"></div>
+
+  <div class="left">
+    <div class="app-name">Ciekawostko<span>Mania</span></div>
+    <div class="tagline">Odkryj świat w pigułce</div>
+    <div class="stat">
+      <strong>514</strong> ciekawostek &nbsp;·&nbsp; <strong>19</strong> kategorii
+    </div>
+  </div>
+
+  <div class="tags">
+    <span class="tag" style="background:#10b981">🌿 Przyroda</span>
+    <span class="tag" style="background:#3b82f6">🚀 Kosmos</span>
+    <span class="tag" style="background:#f59e0b">🏺 Historia</span>
+    <span class="tag" style="background:#8b5cf6">🧠 Nauka</span>
+    <span class="tag" style="background:#ec4899">🌈 Dla dzieci</span>
+    <span class="tag" style="background:#06b6d4">🗺️ Geografia</span>
+    <span class="tag" style="background:#ef4444">🇵🇱 Polska</span>
+    <span class="tag" style="background:#84cc16">🎨 Sztuka</span>
+  </div>
+
+  <div class="right">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <defs>
+        <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.15"/>
+          <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.05"/>
+        </linearGradient>
+        <linearGradient id="bulb2" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#fde68a"/>
+          <stop offset="100%" style="stop-color:#fbbf24"/>
+        </linearGradient>
+      </defs>
+      <rect width="512" height="512" rx="112" fill="url(#bg2)"/>
+      <circle cx="60" cy="80" r="40" fill="white" opacity="0.08"/>
+      <circle cx="450" cy="420" r="55" fill="white" opacity="0.06"/>
+      <ellipse cx="256" cy="226" rx="72" ry="68" fill="url(#bulb2)"/>
+      <ellipse cx="236" cy="200" rx="22" ry="30" fill="white" opacity="0.5"/>
+      <path d="M 236 288 Q 230 298 230 308 L 282 308 Q 282 298 276 288 Z" fill="#d97706"/>
+      <rect x="230" y="308" width="52" height="8" rx="2" fill="#92400e"/>
+      <rect x="234" y="316" width="44" height="7" rx="2" fill="#92400e"/>
+      <rect x="238" y="323" width="36" height="6" rx="2" fill="#92400e"/>
+      <line x1="256" y1="140" x2="256" y2="112" stroke="#fde68a" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+      <line x1="316" y1="160" x2="336" y2="142" stroke="#fde68a" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <line x1="340" y1="220" x2="368" y2="216" stroke="#fde68a" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <line x1="196" y1="160" x2="176" y2="142" stroke="#fde68a" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <line x1="172" y1="220" x2="144" y2="216" stroke="#fde68a" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <rect x="248" y="196" width="16" height="52" rx="6" fill="#7c3aed"/>
+      <circle cx="256" cy="268" r="9" fill="#7c3aed"/>
+      <text x="256" y="430" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="72" fill="white" text-anchor="middle" opacity="0.9" letter-spacing="-2">CM</text>
+    </svg>
+  </div>
+</body>
+</html>

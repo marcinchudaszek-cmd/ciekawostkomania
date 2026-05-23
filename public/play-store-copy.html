@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Store — teksty do skopiowania</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+      padding: 40px 24px 80px;
+    }
+    h1 { font-size: 1.8rem; font-weight: 900; color: #6366f1; margin-bottom: 8px; }
+    .subtitle { color: #64748b; margin-bottom: 40px; }
+    .block {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      padding: 24px;
+      margin-bottom: 24px;
+      max-width: 800px;
+    }
+    .block-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    h2 { font-size: 0.8rem; font-weight: 700; color: #6366f1; text-transform: uppercase; letter-spacing: 1px; }
+    .limit { font-size: 0.75rem; color: #94a3b8; }
+    .content {
+      background: #f8fafc;
+      border-radius: 8px;
+      padding: 16px;
+      font-size: 0.95rem;
+      color: #334155;
+      white-space: pre-wrap;
+      border: 1px solid #e2e8f0;
+    }
+    button {
+      margin-top: 10px;
+      padding: 6px 14px;
+      background: #6366f1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button:hover { background: #4f46e5; }
+    .tag { display: inline-block; background: #ede9fe; color: #6d28d9; padding: 2px 10px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin: 2px; }
+    .note { font-size: 0.8rem; color: #94a3b8; margin-top: 8px; }
+  </style>
+  <script>
+    function copy(id) {
+      const el = document.getElementById(id);
+      navigator.clipboard.writeText(el.innerText);
+      event.target.textContent = '✓ Skopiowano!';
+      setTimeout(() => event.target.textContent = 'Kopiuj', 1500);
+    }
+  </script>
+</head>
+<body>
+  <h1>📋 Play Store — teksty</h1>
+  <p class="subtitle">Kliknij "Kopiuj" przy każdym polu i wklej na Play Console</p>
+
+  <!-- Nazwa -->
+  <div class="block">
+    <div class="block-header">
+      <h2>Nazwa aplikacji</h2>
+      <span class="limit">max 30 znaków</span>
+    </div>
+    <div class="content" id="name">CiekawostkoMania</div>
+    <button onclick="copy('name')">Kopiuj</button>
+    <p class="note">✓ 16 znaków</p>
+  </div>
+
+  <!-- Krótki opis -->
+  <div class="block">
+    <div class="block-header">
+      <h2>Krótki opis</h2>
+      <span class="limit">max 80 znaków</span>
+    </div>
+    <div class="content" id="short">514 ciekawostek z historii, nauki, kosmosu, przyrody i 15 innych kategorii!</div>
+    <button onclick="copy('short')">Kopiuj</button>
+    <p class="note">✓ 77 znaków</p>
+  </div>
+
+  <!-- Pełny opis -->
+  <div class="block">
+    <div class="block-header">
+      <h2>Pełny opis</h2>
+      <span class="limit">max 4000 znaków</span>
+    </div>
+    <div class="content" id="full">Czy wiesz, że krokodyle płaczą podczas jedzenia? Albo że Mozart nie jest pochowany we własnym grobie? CiekawostkoMania to aplikacja pełna zaskakujących faktów, które zmienią sposób w jaki patrzysz na świat!
+
+🔥 514 STARANNIE WYBRANYCH CIEKAWOSTEK
+
+Każda ciekawostka to prawdziwa perełka wiedzy — sprawdzona, fascynująca i napisana w przystępny sposób. Nie ma tu nudnych encyklopedycznych haseł — tylko fakty, które naprawdę zaskakują!
+
+📚 19 KATEGORII DO ODKRYCIA
+
+🏺 Historia — odkryj sekrety starożytnych cywilizacji
+🔬 Nauka — od atomów do czarnych dziur
+🌿 Przyroda — cuda świata roślin i ekosystemów
+🚀 Kosmos — Wszechświat jest większy niż myślisz
+🐾 Zwierzęta — natura potrafi zaskakiwać
+💻 Technologia — jak działa nowoczesny świat
+🧬 Ciało człowieka — niesamowita maszyna biologiczna
+🍕 Jedzenie — historia i nauka na talerzu
+🗺️ Geografia — świat jest większy i dziwniejszy niż sądzisz
+🎨 Sztuka i kultura — arcydzieła i ich sekrety
+⚽ Sport — rekordy i ciekawostki ze świata sportu
+🎵 Muzyka — od Mozarta do rockowych legend
+🎬 Filmy i seriale — kulisy wielkiego ekranu
+🇵🇱 Polska — nieznane fakty o naszym kraju
+🧠 Psychologia — jak naprawdę działa Twój umysł
+🔢 Matematyka — piękno liczb i wzorów
+🗣️ Języki świata — fascynujące fakty o mowie ludzkiej
+⚡ Mitologia — bogowie, herosi i legendy
+🌈 Dla dzieci — ciekawostki dla najmłodszych
+
+✨ DLACZEGO WARTO?
+
+✓ Działa w pełni offline — nie potrzeba internetu
+✓ Brak reklam — żadnych przerw, żadnego rozpraszania
+✓ Losowe ciekawostki — zawsze coś nowego
+✓ Filtrowanie po kategorii — znajdź to co Cię interesuje
+✓ Wyszukiwarka — szukaj konkretnych tematów
+✓ Przyjazny dla dzieci i dorosłych
+
+📖 IDEALNA NA...
+
+Podróże komunikacją miejską, przerwy w pracy, wieczory z rodziną, przygotowanie do quizów i trivia, rozwijanie ogólnej wiedzy, codzienną dawkę inspiracji.
+
+Pobierz CiekawostkoManię i odkryj świat na nowo — jedna ciekawostka dziennie!</div>
+    <button onclick="copy('full')">Kopiuj</button>
+    <p class="note">✓ ~1800 znaków (zostaje dużo miejsca na rozbudowę)</p>
+  </div>
+
+  <!-- Kategoria -->
+  <div class="block">
+    <div class="block-header">
+      <h2>Kategoria w Play Store</h2>
+      <span class="limit">wybierz z listy</span>
+    </div>
+    <div class="content" id="cat">Education (Edukacja)</div>
+    <p class="note">Alternatywnie: Books &amp; Reference lub Trivia</p>
+  </div>
+
+  <!-- Słowa kluczowe -->
+  <div class="block">
+    <div class="block-header">
+      <h2>Słowa kluczowe (do opisu — wpisane już wyżej)</h2>
+      <span class="limit">dla SEO</span>
+    </div>
+    <div style="padding: 12px 0;">
+      <span class="tag">ciekawostki</span>
+      <span class="tag">fakty</span>
+      <span class="tag">wiedza</span>
+      <span class="tag">quiz</span>
+      <span class="tag">edukacja</span>
+      <span class="tag">trivia</span>
+      <span class="tag">historia</span>
+      <span class="tag">nauka</span>
+      <span class="tag">kosmos</span>
+      <span class="tag">dla dzieci</span>
+      <span class="tag">offline</span>
+      <span class="tag">bez reklam</span>
+    </div>
+  </div>
+
+  <!-- Polityka prywatności -->
+  <div class="block">
+    <div class="block-header">
+      <h2>URL Polityki Prywatności</h2>
+      <span class="limit">wymagane przez Google</span>
+    </div>
+    <div class="content" id="pp">https://marcinchudaszek-cmd.github.io/ciekawostkomania/privacy-policy.html</div>
+    <button onclick="copy('pp')">Kopiuj</button>
+    <p class="note">⚠️ Najpierw zrób commit i push — strona musi być dostępna online</p>
+  </div>
+
+  <!-- Email kontaktowy -->
+  <div class="block">
+    <div class="block-header">
+      <h2>Email do kontaktu (Play Console)</h2>
+      <span class="limit">wymagane</span>
+    </div>
+    <div class="content" id="email">wpisz swój email</div>
+    <p class="note">Wpisz adres email widoczny dla użytkowników na stronie aplikacji w Play Store</p>
+  </div>
+</body>
+</html>
