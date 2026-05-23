@@ -22,6 +22,11 @@ export const CATEGORIES = [
   { id: "music", label: "Muzyka", emoji: "🎵", color: "from-pink-500 to-fuchsia-600" },
   { id: "movies", label: "Filmy & Seriale", emoji: "🎬", color: "from-red-500 to-orange-600" },
   { id: "poland", label: "Polska", emoji: "🇵🇱", color: "from-red-600 to-rose-700" },
+  { id: "psychology", label: "Psychologia", emoji: "🧠", color: "from-purple-500 to-violet-600" },
+  { id: "math", label: "Matematyka", emoji: "🔢", color: "from-blue-600 to-indigo-700" },
+  { id: "languages", label: "Jezyki swiata", emoji: "🗣️", color: "from-cyan-500 to-teal-600" },
+  { id: "mythology", label: "Mitologia", emoji: "⚡", color: "from-amber-600 to-yellow-700" },
+  { id: "kids", label: "Dla dzieci", emoji: "🌈", color: "from-pink-400 to-fuchsia-500" },
 ];
 
 export const FACTS_DB: Fact[] = [
@@ -1261,6 +1266,842 @@ export const FACTS_DB: Fact[] = [
     text: "Tour de France w pierwszych edycjach (1903-1904) byl pelen skandali. Kolarze jeździli noca, skracali trasy i wsiadali do samochodow. Na pierwszym wyścigu zdyskwalifikowano czterech z pieciu czolowych zawodnikow.",
     category: "sports",
     emoji: "🚴",
+  },
+
+  // Historia – dodatkowe
+  {
+    id: "h21",
+    text: "Biblioteka Aleksandryjska wcale nie splonela w jednym wielkim pozarze - podupadala stopniowo przez stulecia wskutek braku finansowania i kolejnych incydentow. To mit, ze jeden pozar zniszczyl caly antyczny dorobek wiedzy.",
+    category: "history",
+    emoji: "📚",
+  },
+  {
+    id: "h22",
+    text: "Pierwsza restauracja swiata otwarta w Paryzu w 1765 roku. Slowo 'restauracja' pochodzi od podawanego tam bulionu 'restaurujacego' (przywracajacego sily). Wczesniej mozna bylo jesc tylko w tawernach lub u prywatnych kucharzy.",
+    category: "history",
+    emoji: "🍽️",
+  },
+  {
+    id: "h23",
+    text: "Dinozaury wyginely 66 milionow lat temu, ale nie wszystkie - ptaki sa ewolucyjnymi potomkami dinozaurow i formalnie klasyfikowane sa jako dinozaury w systematyce biologicznej.",
+    category: "history",
+    emoji: "🦕",
+  },
+  {
+    id: "h24",
+    text: "Szachy wynaleziono w Indiach ok. VI w. n.e. - gra zwala sie 'chaturanga' i reprezentowala cztery galezie armii. Do Europy dotarla przez Persje i swiat arabski, co tlumaczycz nazwy figur.",
+    category: "history",
+    emoji: "♟️",
+  },
+  {
+    id: "h25",
+    text: "W starozytnym Egipcie zabicie kota - nawet przypadkowe - moglo grozic kara smierci. Herodot opisuje przypadek gdy Grek przypadkowo zabił kota i zostal zlinczowany przez tlum, mimo ze byl obcokrajowcem.",
+    category: "history",
+    emoji: "🐱",
+  },
+
+  // Nauka – dodatkowe
+  {
+    id: "s19",
+    text: "Ludzki nos moze odrozniac ponad 1 bilion roznych zapachow - to znacznie wiecej niz wczesniej sadzono. Wczesniejsze szacunki mowily tylko o 10 000 zapachach, co koryguja badania z 2014 roku.",
+    category: "science",
+    emoji: "👃",
+  },
+  {
+    id: "s20",
+    text: "Piorun nagrzewa powietrze do ok. 30 000 K - to 5 razy wiecej niz temperatura powierzchni Slonca (ok. 5800 K). Szybkie rozszerzenie tego supergoracego powietrza tworzy grzmot.",
+    category: "science",
+    emoji: "⚡",
+  },
+  {
+    id: "s21",
+    text: "Ogien nie ma cienia. Cien powstaje gdy przedmiot blokuje swiatlo, ale ogien sam jest zrodlem swiatla - nie ma masy ani krawedzi zdolnej do rzucenia cienia.",
+    category: "science",
+    emoji: "🔥",
+  },
+  {
+    id: "s22",
+    text: "Calkowitosci wydobytego zlota w historii ludzkosci zmiescilyby sie w szesciu basenach olimpijskich - to ok. 190 000 ton. Zloto jest tak rzadkie, ze wszystko co wydobyto od tysiecy lat zajmuje wzglednie male miejsce.",
+    category: "science",
+    emoji: "🥇",
+  },
+  {
+    id: "s23",
+    text: "Kazdy czlowiek rodzi sie ze zdolnoscia do nauki dowolnego jezyka. Po 6-7 miesiacu zycia dziecko traci zdolnosc rozrozniania dzwiekow spoza jezyka swojej kultury - mechanizm zwany 'przycinaniem percepcyjnym'.",
+    category: "science",
+    emoji: "👶",
+  },
+
+  // Przyroda – dodatkowe
+  {
+    id: "n15",
+    text: "Drzewa komunikuja sie przez podziemna siec grzybnii. Biologowie nazywaja ja 'wood wide web'. Drzewa przekazuja przez nia skladniki odzywcze, sygnaly chemiczne, a nawet 'karmia' chore sasiednie drzewa.",
+    category: "nature",
+    emoji: "🌲",
+  },
+  {
+    id: "n16",
+    text: "Flamingowie sa biale z natury - ich rozowy kolor pochodzi wylacznie z beta-karotenow w spozywaych glonach i krewetkach. Hodowlane flamingi bez odpowiedniej diety powoli bieleją.",
+    category: "nature",
+    emoji: "🦩",
+  },
+  {
+    id: "n17",
+    text: "Grzyb Armillaria ostoyae w Oregonie ma powierzchnie ok. 965 hektarow i szacowany wiek ok. 8650 lat - jest to prawdopodobnie najwiekszy i najstarszy organizm na Ziemi. Wiekszosc grzyba ukryta jest pod ziemia.",
+    category: "nature",
+    emoji: "🍄",
+  },
+  {
+    id: "n18",
+    text: "Teccze sa w rzeczywistosci pelna kolami - widzimy je jako luki tylko dlatego, ze linia horyzontu je przecina. Z samolotu lub z szczytu wodospadu mozna zobaczyc cala kolista tecze.",
+    category: "nature",
+    emoji: "🌈",
+  },
+  {
+    id: "n19",
+    text: "Bursztyn to skamieniale zywice drzew sprzed milionow lat. Zawarte w bursztynie owady i roslinnosc moga miec nawet 100 milionow lat i sa jednymi z najlepiej zachowanych skamienielin na swiecie.",
+    category: "nature",
+    emoji: "🟡",
+  },
+
+  // Kosmos – dodatkowe
+  {
+    id: "sp16",
+    text: "Pulsary - wirajace gwiazdy neutronowe - sa tak precyzyjnymi zegarami, ze moga sluzyc jako kosmiczne GPS-y dla sond kosmicznych. Sa dokladniejsze niz ziemskie zegary atomowe.",
+    category: "space",
+    emoji: "⭐",
+  },
+  {
+    id: "sp17",
+    text: "Pluton ma piec ksiezycow, a jego najwiekszy - Charon - jest tak duzy wzgledem Plutona (ponad polowe jego sredni cy), ze obydwa obiekty kraza wokol wspolnego srodka masy lezacego poza Plutonem.",
+    category: "space",
+    emoji: "🪐",
+  },
+  {
+    id: "sp18",
+    text: "Galaktyka Andromedy zmierza wprost w strone Drogi Mlecznej z predkoscia ok. 110 km/s. Zderzenie nastapi za ok. 4,5 miliarda lat, ale szanse na kolizje konkretnych gwiazd sa minimalne - za duze odleglosci.",
+    category: "space",
+    emoji: "🌌",
+  },
+  {
+    id: "sp19",
+    text: "Na Saturnie pada diamentowy deszcz. Pioruny zamieniaja metan w sadze, ktora pod gigantycznym cisnieniem przeksztalca sie w grafit, a glebiej w diamenty, ktore opadaja do wnetrza planety.",
+    category: "space",
+    emoji: "💎",
+  },
+  {
+    id: "sp20",
+    text: "Kosmonauta Walerij Poljakow spedzil na stacji kosmicznej Mir 437 dni z rzedu (1994-1995) - to najdluzszy nieprzerwany pobyt czlowieka w kosmosie. Po ladowaniu nie mogl chodzic przez kilka tygodni.",
+    category: "space",
+    emoji: "🧑‍🚀",
+  },
+
+  // Zwierzeta – dodatkowe
+  {
+    id: "a19",
+    text: "Koala ma odciski palcow niemal identyczne z ludzkimi. Nawet doswiadczeni eksperci sa dowi maja trudnosci z ich odroznieniem pod mikroskopem - to jedyne zwierze poza naczelnymi z tak podobnymi liniami papilarnymi.",
+    category: "animals",
+    emoji: "🐨",
+  },
+  {
+    id: "a20",
+    text: "Meduza Turritopsis dohrnii jest biologicznie niesmiertelna - gdy sie zestarzeje lub zostanie raniona, moze cofnac sie do stadium polipa i zaczac zycie od nowa. Naukowcy nazywaja ten proces 'odwrotem ontogenetycznym'.",
+    category: "animals",
+    emoji: "🪼",
+  },
+  {
+    id: "a21",
+    text: "Slonie potrafia rozpoznawac siebie w lustrze - to oznaka samoswiadomosci. Ta zdolnosc poza czlowiekiem posiadaja tylko szympansy, delfiny, orki i sroki. Slonie pokazuja tez empatię i oplakuja swoich zmarlych.",
+    category: "animals",
+    emoji: "🐘",
+  },
+  {
+    id: "a22",
+    text: "Niektore gatunki papug zyja ponad 80 lat - dluzej niz srednia ludzka dlugosc zycia w wielu krajach. Ara szkarlatna moze zyc nawet 100 lat. Dlatego papugi czesto 'przezyja' swoich wlascicieli.",
+    category: "animals",
+    emoji: "🦜",
+  },
+  {
+    id: "a23",
+    text: "Krowy maja najlepszych przyjaciol - badania naukowe wykazaly, ze krowy tworza silne wiezi z konkretnymi innymi krowami i wyraznie stresuja sie (wzrost tetna, gorzsze mleko), gdy sa od nich separowane.",
+    category: "animals",
+    emoji: "🐄",
+  },
+
+  // Technologia – dodatkowe
+  {
+    id: "t15",
+    text: "Pierwszy spam e-mailowy wyslano w 1978 roku - Gary Thuerk z DEC wyslal niezamowiona reklame do 393 adresatow w sieci ARPANET. Za to historyczne 'osiagniecie' poniosl oficjalny reprymend.",
+    category: "technology",
+    emoji: "📧",
+  },
+  {
+    id: "t16",
+    text: "Zasada dzialania GPS jest nierozerwalna od teorii wzglednosci Einsteina. Bez korekt uwzgledniajacych relatywistyczne rozmieszenie czasu, GPS bladzilby o kilometry dziennie przez roznice grawitacyjne i predkosci.",
+    category: "technology",
+    emoji: "📡",
+  },
+  {
+    id: "t17",
+    text: "Pierwszy twardy dysk komputerowy z 1956 roku mial pojemnosc 3,75 MB i wazyl ok. tone (razem z szafa). Przechowywał tyle danych, ile wspolczesny plik JPEG srednij jakosci.",
+    category: "technology",
+    emoji: "💾",
+  },
+  {
+    id: "t18",
+    text: "Kod sterujacy lazikiem Curiosity na Marsie napisany byl m.in. w jezyku Python. To czyni Pythona jedynym jezykiem programowania aktualnie dzialajacym na innej planecie.",
+    category: "technology",
+    emoji: "🤖",
+  },
+  {
+    id: "t19",
+    text: "Kod binarny (0 i 1) nie jest jedyna mozliwa podstawa informatyki. W ZSRR w latach 60. budowano komputery trójkowe (ternarne, -1/0/1) - Setun mial pewne przewagi wydajnosciowe i byl uzywany na uczelniach.",
+    category: "technology",
+    emoji: "🖥️",
+  },
+
+  // Cialo czlowieka – dodatkowe
+  {
+    id: "hb15",
+    text: "Ludzki mozg produkuje tyle energii elektrycznej, ze moze zasilic mala zarowke LED. Przecietna moc mozgu to ok. 20 watow - mniej niz tradycyjna zarowka, ale wystarczajaco duzo by zasilic smartfona.",
+    category: "human",
+    emoji: "💡",
+  },
+  {
+    id: "hb16",
+    text: "Kosci sa 5 razy silniejsze niz stal (na jednostke masy). Kosc udowa wytrzymuje statycznie ciezar ok. 8 ton - tyle co czolg. Ale lamiemy je latwiej, bo sa duzo lejsze niz stal.",
+    category: "human",
+    emoji: "🦴",
+  },
+  {
+    id: "hb17",
+    text: "Twoj zoladek produkuje nowa warstwe sluzu co dwa tygodnie, inaczej stopiłby sam siebie. Kwas zoladkowy ma pH ponizej 2, podobne do kwasu akumulatorowego - moze rozkladic metalowe monety.",
+    category: "human",
+    emoji: "🫀",
+  },
+  {
+    id: "hb18",
+    text: "Prawa i lewa reka maja zupelnie inny ekosystem bakteryjny. Badania wykazaly, ze ok. 85% bakterii na obu rekach jednej osoby jest roznych gatunkow - nawet po myciu sytuacja sie nie zmienia.",
+    category: "human",
+    emoji: "🤲",
+  },
+  {
+    id: "hb19",
+    text: "Ludzkie ucho moze slyszec roznice miedzy dzwiekami odleglymi o zaledwie 10 mikrosekund (0,00001 sekundy). Ten zmysl pozwala nam precyzyjnie okreslic kierunek i odleglosc zrodla dzwieku.",
+    category: "human",
+    emoji: "👂",
+  },
+
+  // Jedzenie – dodatkowe
+  {
+    id: "f17",
+    text: "Banany technicznie sa jagodami botanicznie, a truskawki - nie. W botanice jagoda to owoc z nasionami wewnatrz miesistego osylka. Banana spelnaia ten warunek, truskawka nie - bo jej nasiona sa na zewnatrz.",
+    category: "food",
+    emoji: "🍌",
+  },
+  {
+    id: "f18",
+    text: "Ketchup byl w XIX w. sprzedawany jako lekarstwo na choroby watroby, biegunke i zoltaczke. Dopiero na poczatku XX w. stal sie popularnym sosem kuchennym, tracac etykiete farmaceutyku.",
+    category: "food",
+    emoji: "🍅",
+  },
+  {
+    id: "f19",
+    text: "Czekolada byla przez wieki napojem, nie slodycza stala. Majowie i Aztekowie pili gorzka, niesodzona czekolade mieszana z papryka i przyprawami - zupelnie inna niz wspolczesna czekolada mleczna.",
+    category: "food",
+    emoji: "🍫",
+  },
+  {
+    id: "f20",
+    text: "Jogurt zyje - zawiera miliardy zywych bakterii kwasu mlekowego. Jeden sloik jogurtu moze zawierac wiecej komorek bakteryjnych niz jest ludzi na calej Ziemi.",
+    category: "food",
+    emoji: "🥛",
+  },
+  {
+    id: "f21",
+    text: "Najdrozsza pizza na swiecie kosztowala ok. 12 000 dolarow i byla podawana w restauracji Industry Kitchen w Nowym Jorku. Ozdobiona byle jadalne zloto 24 karatowe, kawior beluga i trufle biale.",
+    category: "food",
+    emoji: "🍕",
+  },
+
+  // Geografia – dodatkowe
+  {
+    id: "g15",
+    text: "Australia jest jedynym kontynentem, ktory jest rownoczesnie calkowicie jednym krajem. Caly kontynent zamieszkuje jeden narod-panstwo, bez zadnych innych suwerennych panstw na laladzie stalym.",
+    category: "geography",
+    emoji: "🦘",
+  },
+  {
+    id: "g16",
+    text: "Kanadyjskie jeziora zawieraja ok. 20% swiatowych zasobow slodkiej wody. Sama prowincja Ontario ma wiecej jezior niz wszystkie inne kraje swiata razem wziete.",
+    category: "geography",
+    emoji: "🍁",
+  },
+  {
+    id: "g17",
+    text: "Rosja rozciaga sie przez 11 stref czasowych - kiedy na zachodzie kraju jest 9 rano, na wschodzie (Kamchatka) jest juz 8 wieczor. Kraj zajmuje ok. 11% ladowej powierzchni Ziemi.",
+    category: "geography",
+    emoji: "🗺️",
+  },
+  {
+    id: "g18",
+    text: "Grenlandia jest technicznie najwieksza wyspa na swiecie, ale mniejsza niz Australia - ktora jednak jest klasyfikowana jako kontynent. Granica miedzy 'wyspa' a 'kontynentem' jest umowna.",
+    category: "geography",
+    emoji: "🧊",
+  },
+  {
+    id: "g19",
+    text: "Wiekszy obszar Afryki lezy w polnocnej polkuli niz w poludniowej - to powszechny mit, ze Afryka jest symetrycznie 'rownikowym' kontynentem. Równik przecina Afryke w 1/3 od dolu.",
+    category: "geography",
+    emoji: "🌍",
+  },
+
+  // Sztuka & Kultura – dodatkowe
+  {
+    id: "ar14",
+    text: "Van Gogh sprzedal za zycia tylko jeden obraz - 'Czerwone winnice' za 400 frankow belgijskich. Dzis jego prace sa warte setki milionow dolarow, a 'Gwiezdzista noc' jest jednym z najczesciej reprodukowanych obrazow swiata.",
+    category: "art",
+    emoji: "🌻",
+  },
+  {
+    id: "ar15",
+    text: "Shakespeare wymyslil ponad 1700 slow, ktore weszly do jezyka angielskiego: 'bedroom', 'lonely', 'generous', 'obscene', 'critic', 'negotiate'. Bez Szekspira jezyk angielski bylby calkowicie inny.",
+    category: "art",
+    emoji: "🎭",
+  },
+  {
+    id: "ar16",
+    text: "Guernica Picassa (3,49 x 7,76 m) zostala namalowana w zaledwie 35 dni w odpowiedzi na bombardowanie baskijskiego miasta przez nazistowskie lotnictwo w 1937 roku. Obraz jest jednym z najslynniejszych antywojjennych dziel.",
+    category: "art",
+    emoji: "🖼️",
+  },
+  {
+    id: "ar17",
+    text: "Biblioteka Kongresu USA z 17 milionami ksiazek jest najwieksza biblioteka na swiecie. Gdyby ulozyc je w jeden rzad, ciag siegnalby ok. 1349 km - z Waszyngtonu do Chicago i z powrotem.",
+    category: "art",
+    emoji: "📖",
+  },
+  {
+    id: "ar18",
+    text: "Kopula katedry Santa Maria del Fiore we Florencji przez 130 lat czekala na swoj dach - nie wiedziano jak ja zbudowac. Brunelleschi opracowal rewolucyjna metode bez zewnetrznego rusztowania dopiero w 1420 roku.",
+    category: "art",
+    emoji: "⛪",
+  },
+
+  // Sport – dodatkowe
+  {
+    id: "spt13",
+    text: "Badminton ma najszybszy serwis sposrod wszystkich sportow swiatowych - lotka moze leciec z predkoscia 493 km/h (rekord Lee Chong Weia z 2013 roku), szybciej niz pilka tenisowa, hokejowa czy squashowa.",
+    category: "sports",
+    emoji: "🏸",
+  },
+  {
+    id: "spt14",
+    text: "Baseballowa rekawica nie byla czescia gry od poczatku - profesjonalni gracze grali golymi rekami do ok. 1870 roku. Pierwsza rekawica nie miala palcow i wygladala jak zwykla rekawiczka.",
+    category: "sports",
+    emoji: "⚾",
+  },
+  {
+    id: "spt15",
+    text: "Curling - rzucanie kamieniami na lodzie - jest jednym z najstarszych sportow teamowych. Pierwsze udokumentowane rozgrywki w Szkocji pochodza z 1511 roku, starsze niz wiele wspolczesnych 'tradycyjnych' sportow.",
+    category: "sports",
+    emoji: "🥌",
+  },
+  {
+    id: "spt16",
+    text: "Olimpiada w 1904 roku w St. Louis: zwyciezca maratonu Fred Lorz (zdyskwalifikowany) przejezdzal czesc trasy samochodem. Prawdziwy zwyciezca Thomas Hicks biegl 'wspomagany' strychniną i brandy - obie substancje byly wtedy legalne.",
+    category: "sports",
+    emoji: "🏃",
+  },
+  {
+    id: "spt17",
+    text: "Tenis wymaga od profesjonalistow przebiegniecja ok. 3 km podczas jednego meczu - ale suma szybkich sprintow wynosi lacznie kilkadziesiat kilometrow. Nadgarstki tenisistow generuja sile 5-krotnie wyzszza niz ciezar rakiety.",
+    category: "sports",
+    emoji: "🎾",
+  },
+
+  // Muzyka – dodatkowe
+  {
+    id: "mu11",
+    text: "Najdluzej trwajacy utow muzyczny - 'Organ2/ASLSP (As SLow aS Possible)' Johna Cage'a - jest wykonywany w kosciele w Halberstadzie w Niemczech i ma trwac 639 lat. Rozpoczal sie w 2001, koniec planowany na 2640 rok.",
+    category: "music",
+    emoji: "🎹",
+  },
+  {
+    id: "mu12",
+    text: "Jimi Hendrix nigdy nie uczyl sie muzyki formalnie i nie umial czytac nut. Swoj rewolucyjny styl na gitarze rozwinal calkowicie intuicyjnie, grajac lewą reką na prawostronnej gitarze odwróconej do gory nogami.",
+    category: "music",
+    emoji: "🎸",
+  },
+  {
+    id: "mu13",
+    text: "Slowo 'karaoke' pochodzi z japonskiego i znaczy dosłownie 'pusta orkiestra' (kara = pusty, oke = skrót od okesutora = orkiestra). Wynalazca karaoke - Daisuke Inoue - nigdy nie opatentował swojego wynalazku.",
+    category: "music",
+    emoji: "🎤",
+  },
+  {
+    id: "mu14",
+    text: "Beethoven komponowal muzyke po tym, jak calkowicie ogluhl - w tym slynna IX Symfonie z Oda do radosci. Podczas prawykonania IX Symfonii dyrygowal mimo ze nic nie slyszal i trzeba go bylo odwrocic, by zobaczyc oklaski.",
+    category: "music",
+    emoji: "🎼",
+  },
+  {
+    id: "mu15",
+    text: "Gitara elektryczna wynaleziona w 1931 roku - jej tworca Adolph Rickenbacker nazwal ja 'Frying Pan' (patelnia) od ksztaltu okraglego rezonatora. Wczesne modele mialy metalowe cialo i brzmienie bardzo rozne od wspolczesnych gitar.",
+    category: "music",
+    emoji: "🎵",
+  },
+
+  // Filmy & Seriale – dodatkowe
+  {
+    id: "mv11",
+    text: "Najdrozej wycenianym filmem wszech czasow po korekcie o inflacje jest 'Kleopatra' z 1963 roku - produkcja kosztowala ok. 339 mln dolarow w dzisiejszych cenach. Niemal zbankrutowala studio 20th Century Fox.",
+    category: "movies",
+    emoji: "🎬",
+  },
+  {
+    id: "mv12",
+    text: "John Williams skomponowal muzyke do wiekszosci kultowych filmow Hollywood: Star Wars, Indiana Jones, Jaws, E.T., Jurassic Park, Harry Potter, Schindler's List, Oskar, Saving Private Ryan... Zdobyl 5 Oscarow i 54 nominacje.",
+    category: "movies",
+    emoji: "🎶",
+  },
+  {
+    id: "mv13",
+    text: "Film 'Ben-Hur' z 1959 roku wymagal 8 miesiecy krecenia samej sceny wyscigu rydwanow i zatrudnil 15 000 statystow. Wypadki na planie byly liczne - slynny mit o smierci kaskadera jest jednak niesprawdzony.",
+    category: "movies",
+    emoji: "🏆",
+  },
+  {
+    id: "mv14",
+    text: "Pulp Fiction Tarantino (1994) bylo nakrecone niechronologicznie - sceny nie odpowiadaja kolejnosci wydarzen. Ten zabieg narracyjny stal sie inspiracja dla setek pozniejszych filmow i pokazal, ze publika lubi byc wyzwana intelektualnie.",
+    category: "movies",
+    emoji: "🎥",
+  },
+  {
+    id: "mv15",
+    text: "Kostium Dartha Vadera z pierwszych Gwiezdnych Wojen (1977) kosztowal 10 000 dolarow. Dzis oryginalne rekwizyty z tej sagi sa warte miliony na aukcjach - helm Vadera sprzedano za ponad 900 000 dolarow.",
+    category: "movies",
+    emoji: "🦹",
+  },
+
+  // Polska – dodatkowe
+  {
+    id: "pl11",
+    text: "Polska jest piatym co do wielkosci eksporterem mebli na swiecie i najwiekszym w UE. IKEA kupuje ok. 18% swoich produktow wlasnie w Polsce. Przemysl meblarski zatrudnia w Polsce ok. 170 000 osob.",
+    category: "poland",
+    emoji: "🛋️",
+  },
+  {
+    id: "pl12",
+    text: "Polska nazwa 'Polska' pochodzi od slowianskiego slowa 'pole' - oznaczajacego rownie lub otwarte pole. Pola uprawne i laki byly dominujacym elementem krajobrazu wczesnych ziem polskich zamieszkiwanych przez plemia Polan.",
+    category: "poland",
+    emoji: "🌾",
+  },
+  {
+    id: "pl13",
+    text: "W Polsce urodzil sie tworca jezyka Esperanto - Ludwik Lazarz Zamenhof (1859-1917) z Bialystoku. Stworzyl miedzynarodowy jezyk Esperanto jako narzedzie pokoju miedzy narodami w wieloetnicznym miescie.",
+    category: "poland",
+    emoji: "🗣️",
+  },
+  {
+    id: "pl14",
+    text: "Stare Miasto w Warszawie jest w ok. 85% rekonstrukcja. Po zniszczeniu przez Niemcow w 1944 roku odbudowano je na podstawie wedut Canaletta i archiwalnych fotografii - UNESCO wpisalo je jako przykladowa rekonstrukcje dziedzictwa.",
+    category: "poland",
+    emoji: "🏰",
+  },
+  {
+    id: "pl15",
+    text: "Polska ma az 17 wpisow na Liste Swiatowego Dziedzictwa UNESCO - m.in. kopalnie soli w Wieliczce, Bialowieza, Stare Miasto Krakowa i Auschwitz. To jeden z najwyzszych wskaznikow w Europie Srodkowej.",
+    category: "poland",
+    emoji: "🇵🇱",
+  },
+
+  // Psychologia
+  {
+    id: "psy1",
+    text: "Efekt Dunninga-Krugera: osoby o malej wiedzy w danej dziedzinie systematycznie przeceniaja swoje kompetencje, podczas gdy eksperci czesto niedoceniaja wlasnej wiedzy wzglednie innych. Im mniej wiesz, tym bardziej pewien jestes siebie.",
+    category: "psychology",
+    emoji: "🧠",
+  },
+  {
+    id: "psy2",
+    text: "Efekt placebo jest tak silny, ze nawet 'otwarte placebo' - gdy pacjent wie, ze bierze pigulke bez substancji czynnej - przynosi mierzalne efekty terapeutyczne. Sam akt przyjetia pigulki aktywuje mechanizmy leczacze mozgu.",
+    category: "psychology",
+    emoji: "💊",
+  },
+  {
+    id: "psy3",
+    text: "Ludzka pamiec nie dziala jak nagranie wideo - jest rekonstruktywna. Za kazdym razem gdy wspominamy wydarzenie, nieznacznie je modyfikujemy. Fałszywe wspomnienia mozna wszczepic przez sugestie - to podstawa psychologii zeznaniowej.",
+    category: "psychology",
+    emoji: "🧩",
+  },
+  {
+    id: "psy4",
+    text: "Zjawisko 'deja vu' naukowcy wiaza z krotkim 'przesunieciem fazowym' miedzy przetwarzaniem swiadomym a nieswiadomym - mozg klasyfikuje nowe doswiadczenie jako 'stare' przez ulamek sekundy zanim koryguje blad.",
+    category: "psychology",
+    emoji: "🔄",
+  },
+  {
+    id: "psy5",
+    text: "Badania Milgrama (1961): az 65% uczestnikow bylo zdolnych do wymierzania pozornie boleznie silnych wstrzasow elektrycznych na polecenie autorytetu w bialym fartuchu. Eksperyment ujawnil ciemna strone poslusznosci spolecznej.",
+    category: "psychology",
+    emoji: "⚡",
+  },
+  {
+    id: "psy6",
+    text: "Efekt halo: gdy oceniamy kogos pozytywnie w jednej cesze (np. uroda lub pewnosc siebie), automatycznie i nieswiadomie przypisujemy mu pozytywne cechy w innych dziedzinach jak inteligencja czy uczciwosc.",
+    category: "psychology",
+    emoji: "😊",
+  },
+  {
+    id: "psy7",
+    text: "Muzyka wplywa na tempo zakupow: sklepy, ktore puszczaja wolna muzyke, generuja wyzsza sprzedaz, bo klienci chodza wolniej i dluzej przegladaja oferte. To swiadoma strategia marketingowa wielu sieci handlowych.",
+    category: "psychology",
+    emoji: "🎵",
+  },
+  {
+    id: "psy8",
+    text: "Mozg nie odroznii zywego wspomnienia od wyobrazni - obydwa aktywuja te same obszary neuronalne (szczegolnie hipokamp i kore przedczolowa). Dlatego intensywne marzenia moga wydawac sie 'prawdziwsze' niz rzeczywiste zdarzenia.",
+    category: "psychology",
+    emoji: "💭",
+  },
+  {
+    id: "psy9",
+    text: "Efekt Stroopa: czytamy slowa automatycznie i szybciej niz rozpoznajemy kolory. Jesli napisac slowo 'CZERWONY' niebieska czcionka, mozg konkuruje ze soba - identyfikacja koloru trwa dluzej. To dowod na automatyzm jezzykowy.",
+    category: "psychology",
+    emoji: "🔴",
+  },
+  {
+    id: "psy10",
+    text: "Paradoks wyboru: zbyt wiele mozliwosci prowadzi do paralizu decyzyjnego i wiekszego niezadowolenia z finalnego wyboru. Badania w sklepach pokazaly, ze witryna z 6 dzzemami sprzedaje lepiej niz z 24.",
+    category: "psychology",
+    emoji: "🤔",
+  },
+  {
+    id: "psy11",
+    text: "Ziewanie jest zazrazliwe nawet przez czytanie o ziewaniu - co wlasnie prawdopodobnie teraz doswiadczasz. To forma empatii: bardziej empatyczni ludzie 'zarazaja sie' ziewaniem czesciej i szybciej.",
+    category: "psychology",
+    emoji: "🥱",
+  },
+  {
+    id: "psy12",
+    text: "Confirmation bias (skrzywienie potwierdzenia) sprawia, ze szukamy informacji potwierdzajacych nasze przekonania i ignorujemy sprzeczne. To ewolucyjna pozostaloscc po czasach gdy szybka decyzja bylo wazniejsza niz dokladna.",
+    category: "psychology",
+    emoji: "🎯",
+  },
+
+  // Matematyka
+  {
+    id: "mat1",
+    text: "Liczba Pi ma nieskonczona ilosc cyfr i nigdy sie nie powtarza w regularnym wzorze. Gdzies w nieskonczczonym ciagu cyfr Pi (3,14159...) znajdziesz swoja date urodzenia, numer telefonu i kazda inna sekwencje cyfr.",
+    category: "math",
+    emoji: "π",
+  },
+  {
+    id: "mat2",
+    text: "Paradoks urodzin: w grupie zaledwie 23 losowych ludzi jest ponad 50% szans, ze dwoje obchodzi urodziny tego samego dnia. W grupie 70 osob szansa przekracza 99%. Matematycy czesto wygrywaja zaklady dzieki temu paradoksowi.",
+    category: "math",
+    emoji: "🎂",
+  },
+  {
+    id: "mat3",
+    text: "Liczby pierwsze maja kluczowe zastosowanie w kryptografii. Algorytm RSA - podstawa bezpieczenstwa bankow i internetu - opiera sie na tym, ze rozklad ogromnych liczb na czynniki pierwsze jest praktycznie nieobliczalny.",
+    category: "math",
+    emoji: "🔐",
+  },
+  {
+    id: "mat4",
+    text: "Zero zostalo wynalezione niezaleznie przez Majow, Hindusow i Babilonczykow. Europejczycy poznali je dopiero w XI wieku dzieki arabskim matematykom. Bez zera nie istnialoby rachunki pozycyjne ani wspolczesna matematyka.",
+    category: "math",
+    emoji: "0️⃣",
+  },
+  {
+    id: "mat5",
+    text: "Paradoks Achillesa Zenona: Achilles scigajac zolwia 'matematycznie nigdy go nie dogoni', bo zawsze pozostaje jakas minimalna odleglosc. Rozwiazanie przyszlo dopiero 2000 lat pozniej - to matematyczny szereg zbiezny.",
+    category: "math",
+    emoji: "🐢",
+  },
+  {
+    id: "mat6",
+    text: "Fraktale to wzory powtarzajace sie w nieskonczonosc niezaleznie od skali przyblirzenia. Platki sniegu, ksztalty linii brzegowych i kalarepka romanesco maja naturalne ksztalty fraktalne, opisywane przez geometry Mandelbrota.",
+    category: "math",
+    emoji: "❄️",
+  },
+  {
+    id: "mat7",
+    text: "Ciag Fibonacciego (1, 1, 2, 3, 5, 8, 13, 21...) pojawia sie wszedzie w naturze: liczba platkow kwiatow, spirale muszli slimaków, ulozenie nasion slonecznika. Zlota proporcja wynikajaca z tego ciagu to ok. 1,618.",
+    category: "math",
+    emoji: "🌻",
+  },
+  {
+    id: "mat8",
+    text: "Georg Cantor udowodnil w 1874 roku, ze nie wszystkie nieskonczonosci sa rowne. Zbior liczb rzeczywistych jest 'wieksza' nieskonczonoscia niz zbior liczb naturalnych - to jedno z najbardziej mindblowing odkryc matematycznych.",
+    category: "math",
+    emoji: "♾️",
+  },
+  {
+    id: "mat9",
+    text: "Hipoteza Riemanna - jedno z 7 Problemow Milenijnych wartych milion dolarow nagrody - jest niesprawdzona od 1859 roku. Dotyczy rozmieszczenia liczb pierwszych i jest uwazana za najtrudniejszy niezrozwiazany problem matematyki.",
+    category: "math",
+    emoji: "🏅",
+  },
+  {
+    id: "mat10",
+    text: "Topologicznie kubek do kawy i paczek sa identycznym ksztaltem - obydwa maja dokladnie jeden otwor. Matematycy mowia zartobliwie, ze 'topolog nie odroznii kubka od paczka'. To przyklad matematyki niezaleznej od konkretnego ksztaltu.",
+    category: "math",
+    emoji: "☕",
+  },
+  {
+    id: "mat11",
+    text: "Zlota proporcja (phi ≈ 1,618) pojawia sie w architekturze, sztuce i naturze od tysiecy lat. Partenon w Atenach, piramidy w Gizie i obrazy Leonarda da Vinci mają proporcje zblizone do zlotego podzialu.",
+    category: "math",
+    emoji: "📐",
+  },
+  {
+    id: "mat12",
+    text: "Liczba 'googol' (jedynka z 100 zerami) jest mniejsza niz liczba atomow w obserwowalnym wszechwswiecie (szacowana na ok. 10^80). Nazwa firmy Google pochodzi wlasnie od 'googol' - symbolizujac ogrom indeksowanej informacji.",
+    category: "math",
+    emoji: "🔢",
+  },
+
+  // Jezyki swiata
+  {
+    id: "lng1",
+    text: "Na swiecie mowi sie ok. 7000 jezykami. Polowa z nich jest zagrodzona wymarciemm i moze zniknac do konca XXI wieku, bo ma mniej niz 1000 rodzimych uzytkownikow. Co dwa tygodnie ginie jeden jezyk.",
+    category: "languages",
+    emoji: "🌐",
+  },
+  {
+    id: "lng2",
+    text: "Jezyk mandaryniski jest jezykiem ojczystym najwiekszej liczby ludzi na swiecie - ok. 920 milionow. Angielski ma ok. 380 mln native speakerow, ale jest pierwszym jezykiem komunikacji miedzynarodowej.",
+    category: "languages",
+    emoji: "🇨🇳",
+  },
+  {
+    id: "lng3",
+    text: "Jezyk piraha z Brazylii jest absolutnie wyjatkowy - nie ma liczb (nawet 'jeden' i 'dwa'), nie ma kolorow, nie ma czasu przeszlego ani przyszlego. Piraha mowia tylko o tym, co aktualnie widza lub doswiadczaja.",
+    category: "languages",
+    emoji: "🌿",
+  },
+  {
+    id: "lng4",
+    text: "Angielskie slowo 'set' ma ponad 430 definicji w Oxford English Dictionary - to slowo z najwieksza liczba znaczen w historii jezyka angielskiego. Samo definiowanie 'set' zajmuje w slownniku 60 000 slow.",
+    category: "languages",
+    emoji: "📖",
+  },
+  {
+    id: "lng5",
+    text: "Esperanto - stworzony sztuczny jezyk - ma ok. 2 milionow uzytkownikow na swiecie i kilka tysiecy native speakerow (dzieci wychowane od urodzenia w tym jezyku przez rodzicow-entuzjastow).",
+    category: "languages",
+    emoji: "🌍",
+  },
+  {
+    id: "lng6",
+    text: "Alfabet hawajski ma tylko 13 liter - 5 samoglosek (a, e, i, o, u) i 8 spolglosek. To jeden z najmniejszych alfabetow na swiecie. Wszystkie slowa hawajskie konczą sie samogloska.",
+    category: "languages",
+    emoji: "🌺",
+  },
+  {
+    id: "lng7",
+    text: "Polska gramatyka jest uznawana za jedna z najtrudniejszych na swiecie - ma 7 przypadkow, 3 rodzaje gramatyczne, rozbudowany system aspektow czasownikowych i wyjatkowo nieregularna wymowe.",
+    category: "languages",
+    emoji: "🇵🇱",
+  },
+  {
+    id: "lng8",
+    text: "W jezyku japonskim liczba mnoga dziala zupelnie inaczej niz w polskim - zamiast 'trzy koty' mowi sie 'kot, trzy sztuki', uzywajac specjalnych liczebnikow zaleznie od ksztaltu, wielkosci i natury obiektu.",
+    category: "languages",
+    emoji: "🇯🇵",
+  },
+  {
+    id: "lng9",
+    text: "Jezyki romanskie (wloski, francuski, hiszpanski, portugqlski, rumunski) wywoddza sie z 'laciny ludowej' - potocznego dialektu uzywaneego przez zwyklych Rzymian, rozneggo od klassycznej laciny Cycerona i Wirgilego.",
+    category: "languages",
+    emoji: "🏛️",
+  },
+  {
+    id: "lng10",
+    text: "Jezyki khoisan z poludnia Afryki uzywaja mlaskow jako pelnoprawnych glosek fonetycznych. Sa one oznaczane specjalnymi symbolami i sa praktycznie niemozliwe do nauczenia sie przez dorosla osobe bez wieloletniego cwiczenia.",
+    category: "languages",
+    emoji: "🌍",
+  },
+  {
+    id: "lng11",
+    text: "Slowo 'robot' pochodzi z jezyka czeskiego - od slowa 'robota' (ciezka, przymusowa praca). Wymyslil je Karel Capek w 1920 roku w sztuce teatralnej 'R.U.R.' Juz za zycia stal sie jednym z najpopularniejszych slow swiata.",
+    category: "languages",
+    emoji: "🤖",
+  },
+  {
+    id: "lng12",
+    text: "Statistyczny Polak aktywnie uzywa ok. 5000-10 000 slow, ale biernie rozumie 20 000-30 000. Polski slownik liczy szacunkowo ok. 250 000 slow. Dla porownania slownik jezyka angielskiego ma ponad 470 000 hasel.",
+    category: "languages",
+    emoji: "💬",
+  },
+
+  // Mitologia
+  {
+    id: "myth1",
+    text: "Zeus (grecki) i Jowisz (rzymski) to ten sam bog pod roznymi imionami. Gdy Rzym podbił Grecje kulturowo (absorpcja kultury podbitej), przyswoisl sobie caly grecki panteon, zamieniajac tylko imiona bogow.",
+    category: "mythology",
+    emoji: "⚡",
+  },
+  {
+    id: "myth2",
+    text: "Syzyf z mitologii greckiej musiał wiecznie wtaczac glaz na wzgorze, z ktorego glaz ciagle spadal. Filozof Albert Camus ukazal Syzyfa jako metafore ludzkiej kondycji i absurdu istnienia - i zaleca, by wyobrazic sobie go szczestliwym.",
+    category: "mythology",
+    emoji: "🪨",
+  },
+  {
+    id: "myth3",
+    text: "W mitologii nordyckiej swiat ma sie skonczyc Ragnarokiem - wielka bitwa bogow i potworow. Co ciekawe, po tym koncu swiata ma nastapic odrodzenie nowego, lepszego swiata - mitologia nordycka ma optymistyczny finał.",
+    category: "mythology",
+    emoji: "🐉",
+  },
+  {
+    id: "myth4",
+    text: "Centaury (pol-czlowiek, pol-kon) mogly byc zainspirowane widokiem jezdzieckich nomadow przez pieszych Grekow. Dla kogoś kto nigdy nie widzial konia z jezdzcem, sylwetka mogla wygladac jak jeden tajemniczy organizm.",
+    category: "mythology",
+    emoji: "🐴",
+  },
+  {
+    id: "myth5",
+    text: "Pandora z mitologii greckiej otworzy la sloik (nie skrzynke - to blad tlumaczenia Erazma z Rotterdamu w XVI w.), wypuszczajac wszystkie nieszczecia swiata. Na dnie zostala tylko Nadzieja - co tez jest dwuznaczne.",
+    category: "mythology",
+    emoji: "📦",
+  },
+  {
+    id: "myth6",
+    text: "Smoki w mitologii europejskiej sa niszczycielskie i zle, ale w mitologii azjatyckiej (chinskiej, japonskiej, koreańskiej) smoki to pozytywne symbole madrosci, sily, plodnosci i szczescia. Ta sama postac, calkowicie odwrotna symbolika.",
+    category: "mythology",
+    emoji: "🐲",
+  },
+  {
+    id: "myth7",
+    text: "Herkules (Herakles) mial wykonac 12 prac, ale dwie zostaly oficjalnie zdyskwalifikowane przez krolwa Eurysteusa: praca za Hydre (pomogl mu Iolaos) i Stajnie Augiasza (wziął zaplat). Musial wykonac dwie dodatkowe prace.",
+    category: "mythology",
+    emoji: "💪",
+  },
+  {
+    id: "myth8",
+    text: "Egipski bog Thot mial glowe ibisa i byl patronem pisma, wiedzy i madrosci. Grecy identyfikowali go ze swoim Hermesem - tak powstal synkretyczny Hermes Trismegistos ('Trzykroc Wielki'), patron hermetycznej filozofii.",
+    category: "mythology",
+    emoji: "🦅",
+  },
+  {
+    id: "myth9",
+    text: "Aztecki bog Quetzalcoatl (Pierzasty Waz) byl patronem wiatru, wiedzy i sztuki. Mit o jego powrocie mial wedlug niektorych historykow wplyw na to, ze Cortes poczatkowo byl przyjmowany z ceremonialnym szacunkiem.",
+    category: "mythology",
+    emoji: "🐍",
+  },
+  {
+    id: "myth10",
+    text: "Feniks to mityczny ptak odradzajacy sie z popiolow - motyw ten pojawia sie niezaleznie w mitologiach egipskiej, greckiej, perskiej i chinskiej. Archetyp odrodzenia jest wiec prawdopodobnie wspolnym elementem ludzkiej psychiki.",
+    category: "mythology",
+    emoji: "🔥",
+  },
+  {
+    id: "myth11",
+    text: "W mitologii slowianskiej Weles byl bogiem podziemia, magii i bydla - i odwiecznym rywalem Peruna (boga pioruna i nieba). Ta walka kosmicznych sil symbolizowala cykl por roku, suszy i deszczu.",
+    category: "mythology",
+    emoji: "🌩️",
+  },
+  {
+    id: "myth12",
+    text: "Labirynt Minotaura z Krety mial realna podstawe - archeolodzy odkryli ogromny palac w Knossos z setkami korytarzy i pomieszczen. Dekoracje kretenske z bylami mogly inspiRowac mit o pol-czlowieku, pol-byku.",
+    category: "mythology",
+    emoji: "🏛️",
+  },
+
+  // Dla dzieci
+  {
+    id: "kid1",
+    text: "Zyrafa ma jezyk gruby jak twoje ramie - ok. 45 cm! Moze nim czyscic wlasne uszy. Jezyk zyrafy jest ciemnofioletowy, bo chroni go przed poparzeniem slonecznym podczas dlugiego zrywania lisci.",
+    category: "kids",
+    emoji: "🦒",
+  },
+  {
+    id: "kid2",
+    text: "Motyle smakuja nogami! Maja receptory smakowe na stopach, zeby sprawdzac czy roslina nadaje sie do zlozenia jaj zanim na nia usiadą. To jak smakowanie jedzenia stopami zamiast jezykiem!",
+    category: "kids",
+    emoji: "🦋",
+  },
+  {
+    id: "kid3",
+    text: "Slonie boja sie pszczol! Naukowcy odkryli, ze sam dzwiek nagrania pszczol sprawia, ze stada sloni uciekaja w panice. Farmerzy w Afryce uzywaja tego do ochrony upraw przed sloniami.",
+    category: "kids",
+    emoji: "🐘",
+  },
+  {
+    id: "kid4",
+    text: "Osiornice maja TRZY serca i niebieskawa krew! Dwa serca pompuja krew do skrzeli (jak pluca), a trzecie do reszty ciala. Krew jest niebieska, bo zawiera miedz zamiast zelaza jak u nas.",
+    category: "kids",
+    emoji: "🐙",
+  },
+  {
+    id: "kid5",
+    text: "Mrowki potrafia dzwigac 50 razy swoj wlasny ciezar! Gdybys miał tyle sily co mrowka, mogl bys uniesc ok. 3 tony - tyle co duzy samochod dostawczy. A jest ich na swiecie 20 000 miliardow!",
+    category: "kids",
+    emoji: "🐜",
+  },
+  {
+    id: "kid6",
+    text: "Planeta Uran obraca sie 'na boku' - jej os jest przechylona az o 98 stopni! To jakby planeta toczyla sie jak pilka zamiast kraciowiec jak inne planety. Dlatego bieguno polarny ma 42-letnia zime!",
+    category: "kids",
+    emoji: "🪐",
+  },
+  {
+    id: "kid7",
+    text: "Pingwiny maja czarne plecy i biale brzuszki jako kamufylaz! Drapiezniki plywajace pod nimi widza biale brzuchy (jak jasne niebo), a drapiezniki z gory widza czarne plecya (jak ciemny ocean). Sprytny kostium!",
+    category: "kids",
+    emoji: "🐧",
+  },
+  {
+    id: "kid8",
+    text: "Trzmiele lataja 'wbrew fizyce' - ich ciala sa za ciezkie do rozmiaru skrzydel wedlug starych rownan. Ale lataja swietnie! Mace skrzydlami az 200 razy na sekunde i tworza wirujace poduszki powietrza.",
+    category: "kids",
+    emoji: "🐝",
+  },
+  {
+    id: "kid9",
+    text: "Chmury mimo ze wyglada puszyscie i lekko, waza NAPRAWDE duzo! Przecietna chmura cumulus (ta biala puchata) wazy ok. 500 ton - tyle co 83 slonie lub ponad 300 samochodow osobowych!",
+    category: "kids",
+    emoji: "☁️",
+  },
+  {
+    id: "kid10",
+    text: "Ksiezyc powoli oddala sie od Ziemi - o ok. 3,8 cm rocznie! Przez miliardy lat byl duzo blizej i zaslonial calego Slonca podczas zacmien idealnie. Za kilka miliardow lat zacmienia calkowite znikna na zawsze.",
+    category: "kids",
+    emoji: "🌙",
+  },
+  {
+    id: "kid11",
+    text: "Najciezszy owad na swiecie to chrabaszcz Goliat z Afryki - wazy do 100 gramow! Dla porownania przecietne jablko wazy ok. 180 gramow. Goliat to prawie pol jablka - latajacego pol jablka!",
+    category: "kids",
+    emoji: "🪲",
+  },
+  {
+    id: "kid12",
+    text: "Dinozaur Velociraptor byl wielki jak indyk, nie jak czlowiek jak w filmie 'Park Jurajski'! Filmowe raptory wzorowano faktycznie na Utahraptor, ktory byl duzo wiekszy. Prawdziwy Velociraptor mial piorka!",
+    category: "kids",
+    emoji: "🦖",
+  },
+  {
+    id: "kid13",
+    text: "Nasz nos nie spi podczas snu - wciaz wyczuwa zapachy nawet gdy my snimy. Dlatego zapach palacego sie jedzenia, dymu lub perfum moze Cie obudzic ze snu. To mechanizm przezycia dzialajacy non-stop.",
+    category: "kids",
+    emoji: "👃",
+  },
+  {
+    id: "kid14",
+    text: "Male kangury (joey) rodza sie niesamowicie malutkie - wielkosc ziarenka fasoli! Mierza zaledwie ok. 2 cm i waza mniej niz gram. Potem wdrapuja sie do torebki mamy i rosna tam przez kolejne miesace.",
+    category: "kids",
+    emoji: "🦘",
+  },
+  {
+    id: "kid15",
+    text: "Rozgwiazdy nie maja mozgu ani krwi! Zamiast krwi maja system wodny pompujacy wode morska przez cialo. I jesli stracą ramie, moga wyrosnac nowe! Niektorych gatunkow jeszcze jedno cialo wyrosnac moze z samego ramienia.",
+    category: "kids",
+    emoji: "⭐",
   },
 ];
 
