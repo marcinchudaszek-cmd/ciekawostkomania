@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-cap/
+.env
+.env.local
+*.local
