@@ -1,0 +1,127 @@
+name: Android — Build & Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      track:
+        description: "Play Store track (internal / alpha / beta / production)"
+        required: true
+        default: "internal"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      JAVA_HOME: ${{ steps.setup-java.outputs.path }}
+
+    steps:
+      # ── 1. Kod źródłowy ──────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── 2. Node.js + web build ────────────────────────────────────────────
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build web (Capacitor)
+        run: npm run build:cap
+
+      # ── 3. Java 21 ───────────────────────────────────────────────────────
+      - name: Setup Java 21
+        id: setup-java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "21"
+
+      # ── 4. Capacitor sync ─────────────────────────────────────────────────
+      - name: Capacitor sync (Android)
+        run: npx cap sync android
+
+      # ── 5. Keystore z GitHub Secrets ─────────────────────────────────────
+      - name: Decode keystore
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > $RUNNER_TEMP/release.jks
+
+      # ── 6. Wersja ─────────────────────────────────────────────────────────
+      - name: Compute version
+        id: version
+        run: |
+          # tag v1.2.3  →  versionName=1.2.3, versionCode=GITHUB_RUN_NUMBER
+          TAG="${GITHUB_REF_NAME:-v1.0.0}"
+          VER_NAME="${TAG#v}"
+          VER_CODE="${{ github.run_number }}"
+          echo "name=$VER_NAME" >> $GITHUB_OUTPUT
+          echo "code=$VER_CODE" >> $GITHUB_OUTPUT
+
+      # ── 7. Build APK (debug‑like, podpisany release) ──────────────────────
+      - name: Build release APK
+        working-directory: android
+        env:
+          KEYSTORE_PATH: ${{ runner.temp }}/release.jks
+          KEY_STORE_PASSWORD: ${{ secrets.KEY_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease \
+            -PversionCode=${{ steps.version.outputs.code }} \
+            -PversionName=${{ steps.version.outputs.name }}
+
+      # ── 8. Build AAB (Play Console) ───────────────────────────────────────
+      - name: Build release AAB
+        working-directory: android
+        env:
+          KEYSTORE_PATH: ${{ runner.temp }}/release.jks
+          KEY_STORE_PASSWORD: ${{ secrets.KEY_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          ./gradlew bundleRelease \
+            -PversionCode=${{ steps.version.outputs.code }} \
+            -PversionName=${{ steps.version.outputs.name }}
+
+      # ── 9. Artefakty ──────────────────────────────────────────────────────
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ciekawostkomania-${{ steps.version.outputs.name }}-release.apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+
+      - name: Upload AAB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ciekawostkomania-${{ steps.version.outputs.name }}-release.aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+
+      # ── 10. GitHub Release (tylko przy tagu) ──────────────────────────────
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "CiekawostkoMania ${{ steps.version.outputs.name }}"
+          generate_release_notes: true
+          files: |
+            android/app/build/outputs/apk/release/app-release.apk
+            android/app/build/outputs/bundle/release/app-release.aab
+
+      # ── 11. Upload do Play Console ────────────────────────────────────────
+      - name: Upload AAB to Play Console
+        if: startsWith(github.ref, 'refs/tags/') && secrets.PLAY_SERVICE_ACCOUNT_JSON != ''
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: com.ciekawostkomania.app
+          releaseFiles: android/app/build/outputs/bundle/release/app-release.aab
+          track: ${{ github.event.inputs.track || 'internal' }}
+          status: completed
+          releaseName: "${{ steps.version.outputs.name }}"
