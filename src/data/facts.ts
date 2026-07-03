@@ -178,13 +178,13 @@ export const FACTS_DB: Fact[] = [
   // Kosmos
   {
     id: "sp1",
-    text: "Slonce stanowi 99,86% masy calego Ukladu Slonecznego. Reszta - czyli planety, ksiezyce, komety i asteroidy - to zaledwie 0,14%.",
+    text: "Pierscienie Saturna sa zbudowane niemal wylacznie z lodu i sa zdumiewajaco cienkie — przy srednicy okolo 280 000 km maja zaledwie kilkadziesiat metrow grubosci. Z boku niemal znikaja z pola widzenia.",
     category: "space",
     emoji: "☀️",
   },
   {
     id: "sp2",
-    text: "Jeden dzien na Wenus trwa dluzej niz rok na Wenus. Pelna rotacja Wenus wokol wlasnej osi zajmuje 243 dni Ziemi, ale okraza Slonce w 225 dniach Ziemi.",
+    text: "Zachody Slonca na Marsie sa niebieskie. Pyl zawieszony w rzadkiej atmosferze rozprasza swiatlo tak, ze niebo za dnia jest rudo-brazowe, a wokol Slonca o zmierzchu robi sie chlodno niebieskie — dokladnie odwrotnie niz na Ziemi.",
     category: "space",
     emoji: "🪐",
   },
@@ -202,31 +202,31 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp5",
-    text: "W przestrzeni kosmicznej panuje absolutna cisza - dzwiek nie moze rozchodzic sie w prozni. Wybuchy gwiazd sa nieslyszalne.",
+    text: "Neptun zostal odkryty 'na papierze', zanim ktokolwiek go zobaczyl. Matematycy zauwazyli, ze cos zaklóca orbite Urana, i obliczyli, gdzie musi znajdowac sie nieznana planeta. Astronom skierowal tam teleskop w 1846 roku i natychmiast ja znalazl.",
     category: "space",
     emoji: "🌌",
   },
   {
     id: "sp6",
-    text: "Wielka Czerwona Plama na Jowiszu to antycyklon trwajacy co najmniej 350 lat. Jest tak duzy, ze zmiescilby sie w nim dwie Ziemie.",
+    text: "Jowisz ma najkrotsza dobe ze wszystkich planet — mimo ogromu obraca sie wokol osi w niespelna 10 godzin. Ten zawrotny ruch splaszcza go tak, ze widocznie 'wybrzusza sie' na rowniku.",
     category: "space",
     emoji: "🔴",
   },
   {
     id: "sp7",
-    text: "Voyager 1, wystrzelony w 1977 roku, jest najdalej od Ziemi wysunieta sonda stworzona przez czlowieka. Wciaz wysyla sygnaly docierajace do Ziemi po ok. 22 godzinach.",
+    text: "Obserwowalny Wszechswiat ma okolo 93 miliardow lat swietlnych srednicy, mimo ze liczy tylko 13,8 miliarda lat. To nie sprzecznosc — sama przestrzen rozszerzala sie od Wielkiego Wybuchu, 'unoszac' galaktyki dalej, niz zdazyloby doleciec ich swiatlo.",
     category: "space",
     emoji: "🛸",
   },
   {
     id: "sp8",
-    text: "Na Marsie znajduje sie najwyzszy wulkan w Ukladzie Slonecznym - Olympus Mons, majacy 22 km wysokosci (prawie 3x wiecej niz Everest) i 600 km srednicy.",
+    text: "Enceladus, niewielki ksiezyc Saturna, wyrzuca w kosmos gejzery lodowej wody z oceanu ukrytego pod lodowa skorupa. To jedno z najbardziej obiecujacych miejsc do poszukiwania pozaziemskiego zycia — sonda przelatujaca przez gejzery moze 'posmakowac' oceanu.",
     category: "space",
     emoji: "🌋",
   },
   {
     id: "sp9",
-    text: "Droga Mleczna i Galaktyka Andromedy zderza sie ze soba - zderzenie nastapi za ok. 4,5 miliarda lat. Jednak gwiazdy sa tak daleko od siebie, ze kolizje poszczegolnych gwiazd beda rzadkoscia.",
+    text: "W galaktyce dryfuja samotne planety bez zadnej gwiazdy — tak zwane planety swobodne. Wyrzucone kiedys ze swoich ukladow, wedruja przez ciemnosc, zimne i pozbawione slonca. Szacuje sie, ze moze byc ich w Drodze Mlecznej miliardy.",
     category: "space",
     emoji: "🌠",
   },
@@ -240,7 +240,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "n2",
-    text: "Posidonia oceanica rosnaca u wybrzezy Ibizy moze miec ponad 100 000 lat - to jeden z najstarszych zywych organizmow na Ziemi.",
+    text: "Drzewa transportuja wode z korzeni az na sam czubek dzieki kapilarnosci i parowaniu z lisci (transpiracji). Najwyzsze sekwoje podnosza wode na ponad 100 metrow — na granicy tego, co fizycznie mozliwe, bo wyzej slup wody by sie 'rozerwal'.",
     category: "nature",
     emoji: "🌿",
   },
@@ -872,19 +872,19 @@ export const FACTS_DB: Fact[] = [
   // Kosmos – dodatkowe
   {
     id: "sp10",
-    text: "Na Saturnie pada deszcz diamentow. Cisnienie atmosferyczne zamienia metan w wegiel, ktory scisniety jeszcze mocniej tworzy diamenty - po czym 'padają' one w glab planety.",
+    text: "Rok na Neptunie trwa okolo 165 lat ziemskich. Od odkrycia planety w 1846 roku okrazyla ona Slonce dopiero raz — pelny obieg zakonczyla w 2011 roku. Mieszkaniec Neptuna obchodzilby wiec urodziny raz na dwa ludzkie zycia.",
     category: "space",
     emoji: "💎",
   },
   {
     id: "sp11",
-    text: "Ksiezyc oddala sie od Ziemi o ok. 3,8 cm rocznie. Za ok. 600 mln lat bedzie tak daleko, ze nie bedziemy mogli obserwowac calkowitych zacmien Slonca - Ksiezyc bedzie za maly, zeby je zaslonic.",
+    text: "Slonce zamienia w energie okolo 4 milionow ton wlasnej masy na sekunde — dosłownie 'chudnie', swiecac. Mimo to jego zapasy sa tak ogromne, ze bedzie swiecic jeszcze przez okolo 5 miliardow lat, zanim stanie sie czerwonym olbrzymem.",
     category: "space",
     emoji: "🌙",
   },
   {
     id: "sp12",
-    text: "Jowisz jest tak wielki, ze wszystkie pozostale planety Ukladu Slonecznego zmiescily sie w nim razem z zapasem. Jego masa stanowi 2,5-krotnosc masy wszystkich pozostalych planet lacznie.",
+    text: "Najwieksze znane gwiazdy, jak UY Scuti czy Stephenson 2-18, sa tak ogromne, ze gdyby zastapic nimi Slonce, ich powierzchnia siegnelaby poza orbite Jowisza. Swiatlo potrzebowaloby godzin, by okrazyc taka gwiazde.",
     category: "space",
     emoji: "🪐",
   },
@@ -922,19 +922,19 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "n11",
-    text: "Najstarsze zyjace drzewo na swiecie to sosna oscista 'Metuzalem' w Gorach Bialych w Kalifornii - ma ponad 5000 lat. Rosla juz kiedy budowniczy wznosili piramidy w Egipcie.",
+    text: "Odkryto grzyby, ktore potrafia rozkladac plastik. Gatunek Pestalotiopsis znaleziony w Amazonii trawi poliuretan nawet bez dostepu tlenu. Naukowcy badaja je jako sposob na walke z globalnym zasmieceniem tworzywami sztucznymi.",
     category: "nature",
     emoji: "🌲",
   },
   {
     id: "n12",
-    text: "Bursztyn to skamieniala zywica drzew sprzed milionow lat. W niektórych kawalkach zachowane sa owady, ktore wpadly do zywicy 50-100 milionow lat temu - z ich DNA naukowcy probuja odczytac dane genetyczne wymarlych gatunkow.",
+    text: "Lisc lotosu jest samoczyszczacy — pokrywa go mikroskopijna warstwa woskowych wypustek, po ktorych woda splywa w kulki, zabierajac brud. Ten 'efekt lotosu' skopiowano w farbach, szybach i tkaninach odpornych na zabrudzenia.",
     category: "nature",
     emoji: "🪲",
   },
   {
     id: "n13",
-    text: "Blyskawica moze podgrzac powietrze wokol siebie do 30 000 stopni Celsjusza - pieciokrotnie wiecej niz powierzchnia Slonca. To gwaltowne ogrzanie powietrza i ekspansja powoduja grzmot.",
+    text: "Bakterie potrafia przetrwac uwiezone w krysztalach soli przez miliony lat. Naukowcy ozywili drobnoustroje sprzed okolo 250 milionow lat wydobyte z solnych zloz — byc moze najstarsze zywe organizmy, jakie kiedykolwiek 'obudzono'.",
     category: "nature",
     emoji: "⚡",
   },
@@ -1344,7 +1344,7 @@ export const FACTS_DB: Fact[] = [
   // Przyroda – dodatkowe
   {
     id: "n15",
-    text: "Drzewa komunikuja sie przez podziemna siec grzybnii. Biologowie nazywaja ja 'wood wide web'. Drzewa przekazuja przez nia skladniki odzywcze, sygnaly chemiczne, a nawet 'karmia' chore sasiednie drzewa.",
+    text: "Sekwoja jest niemal ognioodporna — jej kora ma ponad 30 cm grubosci i slabo sie pali. Co wiecej, niektore drzewa potrzebuja ognia, by ich szyszki sie otworzyly i uwolnily nasiona. Pozar w takim lesie bywa czescia cyklu zycia.",
     category: "nature",
     emoji: "🌲",
   },
@@ -1356,19 +1356,19 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "n17",
-    text: "Grzyb Armillaria ostoyae w Oregonie ma powierzchnie ok. 965 hektarow i szacowany wiek ok. 8650 lat - jest to prawdopodobnie najwiekszy i najstarszy organizm na Ziemi. Wiekszosc grzyba ukryta jest pod ziemia.",
+    text: "Woda w Morzu Baltyckim jest wyjatkowo malo slona, bo zasilaja je liczne rzeki, a wymiana z oceanem odbywa sie tylko przez waskie ciesniny dunskie. Przy dnie zalega cieplejsza, slona woda z Morza Polnocnego, ktora slabo miesza sie z reszta.",
     category: "nature",
     emoji: "🍄",
   },
   {
     id: "n18",
-    text: "Tecze sa w rzeczywistosci pelnymi kolami - widzimy je jako luki tylko dlatego, ze linia horyzontu je przecina. Z samolotu lub z szczytu wodospadu mozna zobaczyc cala kolista tecze.",
+    text: "Najglebsza jaskinia swiata, Wieriowkina na Kaukazie, siega ponad 2200 metrow w glab Ziemi — glebiej niz wysokosc niejednej gory. Dotarcie na jej dno zajmuje grotolazom wiele dni i wymaga rozbijania podziemnych obozow.",
     category: "nature",
     emoji: "🌈",
   },
   {
     id: "n19",
-    text: "Bursztyn to skamieniale zywice drzew sprzed milionow lat. Zawarte w bursztynie owady i roslinnosc moga miec nawet 100 milionow lat i sa jednymi z najlepiej zachowanych skamienielin na swiecie.",
+    text: "Baobab magazynuje w gruby pniu nawet ponad 100 000 litrow wody, by przetrwac dlugie susze. Niektore afrykanskie baobaby zyja ponad 2000 lat, a w wypróchnialych wnetrzach urzadzano bary, wiezienia, a nawet przystanki autobusowe.",
     category: "nature",
     emoji: "🟡",
   },
@@ -1376,7 +1376,7 @@ export const FACTS_DB: Fact[] = [
   // Kosmos – dodatkowe
   {
     id: "sp16",
-    text: "Pulsary - wirajace gwiazdy neutronowe - sa tak precyzyjnymi zegarami, ze moga sluzyc jako kosmiczne GPS-y dla sond kosmicznych. Sa dokladniejsze niz ziemskie zegary atomowe.",
+    text: "Kometa Halleya wraca w poblize Ziemi mniej wiecej co 76 lat. Ostatnio bylo ja widac w 1986 roku, a nastepnym razem pojawi sie w 2061. Wielu ludzi widzi ja tylko raz w zyciu — pisarz Mark Twain urodzil sie i zmarl wraz z jej dwoma przelotami.",
     category: "space",
     emoji: "⭐",
   },
@@ -1388,13 +1388,13 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp18",
-    text: "Galaktyka Andromedy zmierza wprost w strone Drogi Mlecznej z predkoscia ok. 110 km/s. Zderzenie nastapi za ok. 4,5 miliarda lat, ale szanse na kolizje konkretnych gwiazd sa minimalne - za duze odleglosci.",
+    text: "Burza sloneczna z 1859 roku, tzw. zdarzenie Carringtona, byla tak potezna, ze na liniach telegraficznych sypaly sie iskry, a zorze polarne widziano nawet w poblizu rownika. Gdyby taka burza uderzyla dzis, moglaby uszkodzic sieci energetyczne i satelity.",
     category: "space",
     emoji: "🌌",
   },
   {
     id: "sp19",
-    text: "Na Saturnie pada diamentowy deszcz. Pioruny zamieniaja metan w sadze, ktora pod gigantycznym cisnieniem przeksztalca sie w grafit, a glebiej w diamenty, ktore opadaja do wnetrza planety.",
+    text: "Neutrina sa tak nieuchwytne, ze co sekunde przez twoje cialo przelatuja ich biliony — a wiekszosc przeszlaby przez plyte olowiu grubosci roku swietlnego bez jednego zderzenia. Powstaja m.in. we wnetrzu Slonca.",
     category: "space",
     emoji: "💎",
   },
@@ -2237,19 +2237,19 @@ export const FACTS_DB: Fact[] = [
   // przyroda n20-n29
   {
     id: "n20",
-    text: "Drzewa-matki w lesie aktywnie karma swoje potomstwo przez siec mykoryzy. Wysylaja do korzeni mlodszych drzew dodatkowe skladniki odzywcze i sygnaly chemiczne ostrzegajace przed szkodnikami.",
+    text: "Welwitschia z pustyni Namib zyje ponad 1000, a czasem nawet 2000 lat, majac przez cale zycie zaledwie dwa liscie. Rosna one nieustannie, strzepiac sie na koncach, przez co roslina wyglada jak zwiedla kupa lisci na piasku.",
     category: "nature",
     emoji: "🌳",
   },
   {
     id: "n21",
-    text: "Niektore gatunki bambusa kwitna tylko raz w zyciu — po 40-120 latach — a potem gina. Co zdumiewajace, cale lasy bambusowe tego samego gatunku kwitna rownoczesnie na calym swiecie, nawet gdy rosna w odleglych krajach.",
+    text: "Niektore grzyby swieca w ciemnosci — zjawisko zwane 'foxfire'. Grzybnia opienki jarzy sie zielonkawym swiatlem w gnijacym drewnie. Dawniej brano to za duchy lub zle omeny; dzis wiadomo, ze to bioluminescencja przyciagajaca owady roznoszace zarodniki.",
     category: "nature",
     emoji: "🎋",
   },
   {
     id: "n22",
-    text: "Platki sniegu sa matematycznie unikalne — nie istnieja dwa identyczne. Kazdy powstaje w niepowtarzalnych warunkach temperatury i wilgotnosci, przechodzac przez miliony warstw atmosfery o nieco innych wlasnosciach.",
+    text: "Wodospad Salto Angel w Wenezueli ma 979 metrow wysokosci — jest najwyzszy na swiecie. Jest tak wysoki, ze wieksza czesc wody rozprasza sie w drobna mgle, zanim dotrze do dna. Odkryl go dla swiata pilot Jimmie Angel, od ktorego wziela nazwe.",
     category: "nature",
     emoji: "❄️",
   },
@@ -2298,7 +2298,7 @@ export const FACTS_DB: Fact[] = [
   // kosmos sp21-sp30
   {
     id: "sp21",
-    text: "Europa — ksiezyc Jowisza — ma pod lodowa skorupa ocean cieklej wody, prawdopodobnie glebszy niz nasze ziemskie oceany. Jest jednym z najatrakcyjniejszych kandydatow na pozaziemskie zycie w Ukladzie Slonecznym.",
+    text: "W dalekim kosmosie astronomowie znalezli wokol odleglego kwazara chmure pary wodnej zawierajaca 140 bilionow razy wiecej wody niz wszystkie oceany Ziemi — to najwiekszy znany zbiornik wody we Wszechswiecie.",
     category: "space",
     emoji: "🧊",
   },
@@ -2322,25 +2322,25 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp25",
-    text: "Temperatura powierzchni Wenus (ok. 465 st. C) jest wyzsza niz Merkurego — mimo ze Merkury jest blizej Slonca. Gesty dwutlenek wegla w atmosferze Wenus tworzy ekstremalny efekt cieplarniany.",
+    text: "Uran byl pierwsza planeta odkryta przez teleskop (1781). Wszystkie pozostale planety widac golym okiem i znano je od starozytnosci. Uran jest na granicy widocznosci — mozna go dostrzec bez sprzetu, ale przez wieki brano go za gwiazde.",
     category: "space",
     emoji: "🌡️",
   },
   {
     id: "sp26",
-    text: "Sondy Voyager 1 i 2 wystrzelono w 1977 roku. Voyager 1 jest teraz najdalej oddalonym obiektem zrobionym przez czlowieka — ponad 23 miliardy km od Ziemi, w przestrzeni miedzygwiezdnej.",
+    text: "Przestrzen rozszerza sie tak szybko, ze najdalsze galaktyki oddalaja sie od nas predzej, niz biegnie ich swiatlo — ich blask nigdy juz do nas nie dotrze. Czesc Wszechswiata jest na zawsze poza zasiegiem naszych teleskopow.",
     category: "space",
     emoji: "🛸",
   },
   {
     id: "sp27",
-    text: "Czarna dziura w centrum naszej galaktyki — Sagittarius A* — ma mase ok. 4 milionow Slonc. Sfotografowano ja po raz pierwszy w 2022 roku. Nie wciaga calej galaktyki, bo jest zbyt daleko od wiekszosci gwiazd.",
+    text: "Pierwsze w historii zdjecie czarnej dziury (2019) pokazalo obiekt w galaktyce M87, oddalony o 55 milionow lat swietlnych. Powstalo dzieki polaczeniu radioteleskopow z calej Ziemi w jeden wirtualny instrument wielkosci planety.",
     category: "space",
     emoji: "🌌",
   },
   {
     id: "sp28",
-    text: "Kosmiczne tlo promieniowania mikrofalowego to echo Wielkiego Wybuchu sprzed 13,8 miliarda lat. Mozna je wykryc jako szum w starych telewizorach analogowych — czesc sniezki to promieniowanie z narodzin Wszechswiata.",
+    text: "Merkury powoli sie kurczy. W miare jak jego zelazne jadro stygnie, planeta sie kurczy, a jej powierzchnia marszczy sie w ogromne uskoki dlugie na setki kilometrow — jak wysychajace, pomarszczone jablko.",
     category: "space",
     emoji: "📡",
   },
@@ -2352,7 +2352,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp30",
-    text: "Na Uranie jeden dzien trwa 17 godzin, ale rok az 84 lata ziemskie. Przez przechylona os planety (98 st.) kazdy biegun ma 42 lata swiatla, a potem 42 lata ciemnosci.",
+    text: "Niesporczaki (tardigrady) przetrwaly bezposrednie wystawienie na prozne i promieniowanie otwartego kosmosu — jako jedyne znane zwierze. Wysuszone potrafia przetrwac skrajny mroz, ciśnienie i brak wody, a po latach wracaja do zycia.",
     category: "space",
     emoji: "🪐",
   },
@@ -3847,7 +3847,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp33",
-    text: "Voyager 1 — wystrzelony w 1977 r. — jest najdalej od Ziemi obiektem stworzonym przez czlowieka. W 2023 r. byl ok. 23 mld km od Slonca. Sygnal radiowy potrzebuje ponad 22 godzin by do niego dotrzec.",
+    text: "Temperatura pustej przestrzeni kosmicznej — mierzona jako mikrofalowe tlo Wielkiego Wybuchu — wynosi okolo -270°C, zaledwie 2,7 stopnia powyzej zera absolutnego. To najzimniejszy naturalny 'poziom' Wszechswiata.",
     category: "space",
     emoji: "🛸",
   },
@@ -3865,7 +3865,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp36",
-    text: "Ksiezyc oddala sie od Ziemi o ok. 3,8 cm rocznie. Kiedy powstawal 4,5 mld lat temu, byl 10x blizej. Za kilka miliardow lat bedzie tak daleko, ze zaćmienia Slonca przestana byc mozliwe.",
+    text: "Istnieje 'diamentowa planeta' — 55 Cancri e — tak gorąca i bogata w wegiel, ze znaczna czesc jej wnetrza moze byc skrystalizowana w diament. Krazy tak blisko swojej gwiazdy, ze rok trwa tam mniej niz jedna ziemska doba.",
     category: "space",
     emoji: "🌕",
   },
@@ -3877,7 +3877,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp38",
-    text: "Temperatura na powierzchni Wenus wynosi ok. 465°C — wyzsza niz na Merkurym, mimo ze Merkury jest blizej Slonca. Gesty atmosferyczny efekt cieplarniany CO2 sprawia, ze Wenus jest najgoretszą planetą ukladu.",
+    text: "Astronomowie potwierdzili juz istnienie ponad 5000 egzoplanet — planet krazacych wokol innych gwiazd. Wiele z nich wykryl teleskop Kepler, obserwujac subtelne przygasanie gwiazd, gdy przechodzi przed nimi planeta.",
     category: "space",
     emoji: "♨️",
   },
@@ -3907,7 +3907,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp43",
-    text: "Neutrony gwiazdy maja tak ogromna gestosc, ze lyzka jej materii wazylaby ok. miliarda ton. Jedna neutronowa gwiazda miesci mase wiekszą od Slonca w kuli o srednicy ok. 20 km.",
+    text: "Io, ksiezyc Jowisza, jest najbardziej wulkanicznie aktywnym cialem w Ukladzie Slonecznym — ma jeziora lawy i wulkany wyrzucajace materie na setki kilometrow. Napedza je gigantyczna grawitacja Jowisza, ktora nieustannie ugniata ksiezyc.",
     category: "space",
     emoji: "⭐",
   },
@@ -3925,7 +3925,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp46",
-    text: "Poza Ukladem Slonecznym najblizsza gwiazda to Proxima Centauri — 4,24 roku swietlnego od Ziemi. Podroz tam najszybszym statkiem kosmicznym (Voyager) zajelaby ok. 73 000 lat.",
+    text: "Miedzynarodowa Stacja Kosmiczna (ISS) jest prawdopodobnie najdrozszym pojedynczym obiektem, jaki kiedykolwiek zbudowano — kosztowala ponad 150 miliardow dolarow. Montowano ja w kosmosie przez ponad dekade, z modulow wielu panstw.",
     category: "space",
     emoji: "✨",
   },
@@ -3955,7 +3955,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp51",
-    text: "Dzien na Wenus jest dluzszy niz rok na Wenus. Wenus obraca sie wokol wlasnej osi tak wolno (243 dni Ziemi), ze jej rok (okrazenie Slonca) trwa tylko 225 dni ziemskich.",
+    text: "Choc Wielka Czerwona Plama Jowisza jest slynna, najszybsze wiatry w Ukladzie Slonecznym wieja na Neptunie — siegaja okolo 2000 km/h, wiecej niz jakikolwiek huragan na Ziemi. A to planeta pozornie spokojna i lodowato zimna.",
     category: "space",
     emoji: "♀️",
   },
@@ -4291,13 +4291,13 @@ export const FACTS_DB: Fact[] = [
   // Przyroda — nowe
   {
     id: "n30",
-    text: "Drzewa komunikuja sie ze soba poprzez sie grzybni pod ziemia — tzw. 'Wood Wide Web'. Drzewa matki wysylaja skladniki odzywcze do malych sadzonek, a chore drzewa dostaja wsparcie od sasiaden. Taka siec moze laczyc cala puszcze.",
+    text: "Rzeka Kongo jest najglebsza rzeka swiata — miejscami przekracza 220 metrow glebokosci. W jej ciemnych, wartkich glebiach wyewoluowaly osobne gatunki ryb, czesto slepych i pozbawionych barwnika, odcietych od reszty rzeki przez podwodne progi.",
     category: "nature",
     emoji: "🌲",
   },
   {
     id: "n31",
-    text: "Piorun uderza w Ziemie ok. 100 razy na sekunde — czyli ok. 8,6 mln razy dziennie. Temperatura pioruna (30 000°C) jest wyzsza niz powierzchni Slonca i wytwarza tlenki azotu kluczowe dla nawozenia gleby.",
+    text: "Na jeziorze Titicaca ludy Uro zyja na plywajacych wyspach z trzciny totora. Warstwy splecionej, gnijacej i doukladanej trzciny tworza plywajacy grunt wytrzymaly na tyle, by pomiescic domy, a nawet szkoly. Wyspy trzeba stale doukladac od gory, bo spod spodu gnija.",
     category: "nature",
     emoji: "⚡",
   },
@@ -4369,7 +4369,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "n43",
-    text: "Wulkany undersea (podwodne) sa o wiele czestsze niz nadwodne. Ok. 75% wulkanicznej aktywnosci Ziemi odbywa sie pod oceanem. Podwodne erupcje tworza nowe dno oceaniczne i wytworzyly wiekszosc tlenu w praatmosferze.",
+    text: "Gejzery to wrzatek wyrzucany pod cisnieniem na kilkadziesiat metrow w gore. Slynny Old Faithful w Yellowstone wybucha srednio co okolo 90 minut od ponad stu lat. Wode podgrzewa magma zalegajaca pod parkiem — Yellowstone to w istocie ogromny superwulkan.",
     category: "nature",
     emoji: "🌋",
   },
@@ -6435,7 +6435,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp58",
-    text: "Teleskop Hubble'a przez pierwsze lata po wystrzeleniu (1990) robil rozmazane zdjecia przez blad w zwierciadle — zaledwie 2 mikrony za plasko. Misja naprawcza w 1993 r. zainstalowala 'okulary korekcyjne'. Stał sie najbardziej owocnym teleskopem w historii.",
+    text: "Saturn nie jest jedyna planeta z pierscieniami — Jowisz, Uran i Neptun tez je maja, tyle ze znacznie ciensze i ciemniejsze, przez co trudno je dostrzec. Pierscienie Saturna wygrywaja iloscia jasnego lodu.",
     category: "space",
     emoji: "🔭",
   },
@@ -6477,7 +6477,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp65",
-    text: "Pas asteroid miedzy Marsem a Jowiszem zawiera miliony obiektow, ale ich łaczna masa to tylko ok. 4% masy Ksiezyca. Filmy SF zazwyczaj pokazuja go jako geste pole skał — w rzeczywistosci statki kosmiczne przelatuja przez niego, nie trafiajac w nic.",
+    text: "Oblok Oorta to gigantyczna otoczka lodowych cial otaczajaca Uklad Sloneczny — moze siegac nawet cwierci drogi do najblizszej gwiazdy. Uwaza sie go za zrodlo komet dlugookresowych, ktore raz na tysiace lat spadaja ku Sloncu.",
     category: "space",
     emoji: "🪨",
   },
@@ -6495,7 +6495,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "sp68",
-    text: "Mars ma dwie ksiezyc: Fobos i Deimos. Fobos okraza Marsa szybciej niz Mars sie obraca i powoli spiraluje ku planecie — za ok. 50 mln lat rozpadnie sie lub uderzy w Mars tworzac pierscien. Deimos powoli ucieka.",
+    text: "Olympus Mons na Marsie jest tak rozlegly (okolo 600 km srednicy), ze stojac na jego szczycie, nie zobaczylbys jego krawedzi — zbocza znikaja za horyzontem. To najwiekszy wulkan w Ukladzie Slonecznym, prawie trzy razy wyzszy od Everestu.",
     category: "space",
     emoji: "🔴",
   },
@@ -6741,7 +6741,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "n62",
-    text: "Wielka Rafa Koralowa jest widoczna z kosmosu i jest najwieksza zywa struktura biologiczna na Ziemi. Zajmuje ok. 344 400 km2. Zbudowala ja mozaika pol miliona lat pracy milionow polipow koralowych.",
+    text: "Lasy namorzynowe (mangrowce) rosna wprost w slonej wodzie morskiej, filtrujac sol korzeniami i oddychajac przez pnacza sterczace z mulu. Chronia wybrzeza przed tsunami i sztormami skuteczniej niz betonowe waly, a ich korzenie sa zlobkiem dla mlodych ryb.",
     category: "nature",
     emoji: "🌊",
   },
@@ -10178,7 +10178,7 @@ export const FACTS_DB: Fact[] = [
   { id: "n76", category: "nature", emoji: "🌊", text: "Fale tsunami w pelnym oceanie sa prawie niewidoczne — maja 30-60 cm wysokosci ale setki km dlugosci. Podróżują z predkoscia odrzutowca (800 km/h). Statek na pelnym oceanie prawie nie czuje tsunami. Dopiero przy plytkim wybrzezu fala sie 'pietrzy' i wznosi — energia z setek km fali skupia sie na malym odcinku." },
   { id: "n77", category: "nature", emoji: "🍂", text: "Drzewa lisciate zrzucaja liscie zimą by oszczedzac wode — nie energie. Zima gleba jest zamarznięta i drzewo nie moze pobierac wody, a liscie by ją parowaly. Kolor lisci wiosna i latem jest zielony przez chlorofil. Jesienia chlorofil sie rozklada odsłaniając zolte i pomaranczowe pigmenty ktore byly tam caly czas — czerwone sa wytwarzane specjalnie." },
   { id: "n78", category: "nature", emoji: "🐠", text: "Rafa koralowa Wielkiej Bariery Koralowej jest jedyną żywą strukturą widoczną z kosmosu — rozciaga sie na 2300 km. Jest domem dla 1500 gatunkow ryb, 4000 gatunkow mieczynogów i 6 gatunkow żołwi. Od 1995 roku stracila polowe swoich koralowcow z powodu globalnego ocieplenia. Wybielanie koralowcow nastepuje gdy woda jest o 1-2°C cieplejsza niz normalnie." },
-  { id: "n79", category: "nature", emoji: "🌙", text: "Przypływy i odpływy oceanu sa powodowane glownie przez Ksiezyc ale takze przez Slonce. Gdy Ksiezyc i Slonce sa ustawione w linii (pelnia i nów) sily grawitacji sumuja sie — powstaja 'syzygijne' przypływy (wieksze). Przyplywy nie sa tylko oceaniczne — grunt samej Ziemi 'oddycha' o okolo 20-30 cm w rytm przyplywu ksiezycowego." },
+  { id: "n79", category: "nature", emoji: "🌙", text: "Ryby w wodach Antarktydy nie zamarzaja mimo temperatury ponizej 0°C, bo maja we krwi naturalne bialka przeciw zamarzaniu, ktore blokuja tworzenie sie krysztalkow lodu. To odkrycie wykorzystano m.in. przy produkcji lodow i mrozeniu zywnosci." },
   { id: "n80", category: "nature", emoji: "🔥", text: "Ogien nie jest materia w zadnym ze stanow skupienia — to egzotermiczna reakcja chemiczna (spalanie). Sam plomien to rozgrzane gazy i plazma. Na Miedzynarodowej Stacji Kosmicznej ogien bez grawitacji wyglada jak kula — brak konwekcji sprawia ze plomien nie 'ciągnie' w gore. Taka kulista forma jest chlodniejsza i bardziej wydajna niz ziemski plomien." },
   { id: "n81", category: "nature", emoji: "🌙", text: "Ksiezyc oddala sie od Ziemi o 3.8 cm rocznie. Za okolo 600 milionow lat bedzie za daleko by calkowicie zaslaniac Slonce — zakonczy sie era calkowitych zaćmień Słonca. Jednoczesnie obroty Ziemi zwalniaja przez sily pływowe — dzien trwa teraz 24 godziny, ale za miliard lat bedzie trwac 25 godzin." },
   { id: "n82", category: "nature", emoji: "🐋", text: "Wieloryb blekitny jest wiekszy niz jakikolwiek znany dinozaur. Jego serce jest wielkosci samochodu osobowego. Dziecko wieloryba blekitnego przybiera na wadze okolo 90 kg dziennie karmiac sie mlekiem matki. Paszcza wieloryba blekitnego jest tak rozlegla, ze zmiescilby sie w niej samochod. Mimo tak ogromnych rozmiarow zyje glownie z kryla mniejszego niz twoj palec." },
@@ -10189,7 +10189,7 @@ export const FACTS_DB: Fact[] = [
   { id: "sp73", category: "space", emoji: "☀️", text: "Swiatlo ze Slonca potrzebuje 8 minut 20 sekund by dotrzec do Ziemi. Ale samo swiatlo 'powstaje' w jadrze Slonca i potrzebuje od 10 000 do 170 000 lat by wydostac sie z rdzenia do powierzchni przez nieskonczenie wiele odbic w gęstej plazmie. To co teraz swiecimy dostalo sie z jadra Slonca zanim pojawil sie homo sapiens." },
   { id: "sp74", category: "space", emoji: "🔭", text: "Teleskop Hubble w ciagu 30 lat pracy dostarcza danych uzywanych w ponad 18 000 pracach naukowych. Jego pierwsza poprawa wzroku (misja serwisowa 1993) była konieczna bo lusterko bylo oszlifowane z bledem 2.2 mikrometra — mniej niz grubosc ludzkiego wlosa. Przed korekcja NASA bylo osmieszane, po korekcji stalo sie symbolem naukowego triumfu." },
   { id: "sp75", category: "space", emoji: "🚀", text: "Saturn 5 — rakieta ktora zabierala astronautow na Ksiezyc — wciaz pozostaje najsilniejsza rakieta jaka kiedykolwiek stworzono. Generowala 34 miliony niutonow ciagu. Zuzywala 13 ton paliwa na sekunde. Mimo 50 lat postępu technicznego żadna rakieta nie przewyzszyła jej udźwigu do czasu SLS i Starship Elona Muska." },
-  { id: "sp76", category: "space", emoji: "🛸", text: "Sonda Voyager 1 wystrzelona w 1977 roku jest najdalszym obiektem stworzonym przez czlowieka — w 2023 roku jest w odleglosci 23.5 miliarda km od Ziemi. Sygnał radiowy z Voyagera potrzebuje 22 godziny by dotrzec do Ziemi. Sonda nadal dziala zasilana energia plutonu, ale baterie zasilą tylko do okolo 2025 roku." },
+  { id: "sp76", category: "space", emoji: "🛸", text: "Promieniowanie kosmiczne to strumien czastek o gigantycznej energii, ktory nieustannie bombarduje Ziemie z kazdego kierunku. Czesc z nich pochodzi z wybuchow gwiazd po drugiej stronie galaktyki i pedzi niemal z predkoscia swiatla." },
   { id: "sp77", category: "space", emoji: "🌍", text: "Ziemia nie jest kulą — jest spłaszczona na biegunach i wydeta na rowniku (geoida). Srednica rownikowa wynosi 12 756 km, polarna 12 714 km — roznica 42 km. Przez to Mount Everest (8849 m npm) nie jest szczytem najblizszym kosmosu — jest nim szczyt Chimborazo w Ekwadorze (6263 m npm ale lezacy blizej rownika przez wybrzuszenie Ziemi)." },
   { id: "sp78", category: "space", emoji: "🌠", text: "Meteoryt czelabinski (2013) eksplodowal w atmosferze nad Rosja z sila 30 razy wieksza niz bomba w Hiroszimie. Mimo to nie spowodowal wielkich zniszczen bo eksplodowal na wysokosci 30 km. Fala uderzeniowa potlukla okna w promieniu 90 km, raniac 1500 osob glownie od odlamkow szkla. Wydarzenie zainspirowalo miedzynarodowe programy sledzenia asteroid." },
   { id: "sp79", category: "space", emoji: "🌕", text: "Apollo 11 komputer pokładowy mial moc obliczeniową milion razy slabsza od iPhone'a 14. W krytycznym momencie ladowania na Ksiezycu komputer wyświetlił alarm 1202 — pamiec RAM byla przeciazona. Inzynier 26-letnia Margaret Hamilton napisala kod ktory pozwolil kontynuowac misje mimo alarmu. Hamilton wymyslila sam termin 'software engineering'." },
