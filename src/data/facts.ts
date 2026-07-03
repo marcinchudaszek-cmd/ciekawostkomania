@@ -134,13 +134,13 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s4",
-    text: "Szklo tak naprawde nie jest cialem stalym ani cieczem - to amorficzne cialo stale. Teoria, ze stare okna sa grubsze na dole przez powolny przeplyw szkla, jest mitem.",
+    text: "Najnizszy dzwiek we Wszechswiecie wydaje czarna dziura w gromadzie galaktyk w Perseuszu. To nuta okolo 57 oktaw ponizej srodkowego C — miliardy razy nizsza, niz slyszy czlowiek. Powstaje, gdy czarna dziura wysyla fale cisnienia w otaczajacy gaz.",
     category: "science",
     emoji: "🪟",
   },
   {
     id: "s5",
-    text: "Blyskawica uderza w powierzchnie Ziemi ok. 100 razy na sekunde, czyli okolo 8 milionow razy dziennie na calej planecie.",
+    text: "Grafit z olowka i diament to ten sam pierwiastek — wegiel. Rozni je tylko uklad atomow: w graficie tworza slabo zwiazane warstwy, w diamencie sztywna siec przestrzenna. Pod ogromnym cisnieniem grafit moze zamienic sie w diament.",
     category: "science",
     emoji: "⚡",
   },
@@ -152,7 +152,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s7",
-    text: "Gorace wody zazwyczaj zamarzaja szybciej niz zimne - zjawisko to znane jest jako efekt Mpemby i do dzis nie ma jednoznacznego naukowego wyjasnienia.",
+    text: "Helu na Ziemi nieublaganie ubywa. Jest tak lekki, ze raz uwolniony (np. z balonu) ulatuje az w kosmos i jest praktycznie stracony. A to cenny surowiec — chlodzi magnesy w aparatach do rezonansu magnetycznego (MRI).",
     category: "science",
     emoji: "🧊",
   },
@@ -164,7 +164,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s9",
-    text: "Gdyby usunac cala przestrzen z atomow tworzacych cialo kazdego czlowieka na Ziemi, cala ludzkosc zmiescilaby sie w szescianie o boku ok. 2,2 cm.",
+    text: "Predkosc swiatla w prozni (okolo 300 000 km/s) jest najwyzsza mozliwa predkoscia we Wszechswiecie. Nic, co ma mase, nie moze jej osiagnac — rozpedzenie takiego obiektu wymagaloby nieskonczonej energii. To fundamentalny limit natury.",
     category: "science",
     emoji: "🔭",
   },
@@ -284,7 +284,7 @@ export const FACTS_DB: Fact[] = [
   // Zwierzeta
   {
     id: "a1",
-    text: "Osmiornica ma trzy serca i niebieska krew. Dwa serca pompuja krew przez skrzela, a trzecie - przez reszte ciala. Gdy plynie, serce glowne zatrzymuje bicie.",
+    text: "Aksolotl potrafi odtworzyc utracona konczyne, ogon, fragmenty serca, a nawet czesci mozgu — i to bez blizny. Ten meksykanski plaz przez cale zycie pozostaje w formie larwalnej (neotenia) i niemal sie nie starzeje. Naukowcy badaja go, marzac o regeneracji tkanek u ludzi.",
     category: "animals",
     emoji: "🐙",
   },
@@ -296,7 +296,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a3",
-    text: "Flamingo jest rozowy ze wzgledu na pigment astaksantyna z alg i krewetek, ktore zjada. Na diecie pozbawionej tych pokarmow - bieleje.",
+    text: "Krewetka pistoletowa poluje dzwiekiem. Blyskawicznie zamyka szczypce, tworzac pecherzyk, ktory pod cisnieniem rozgrzewa sie na moment niemal do temperatury powierzchni Slonca i wybucha fala uderzeniowa ogluszajaca zdobycz. To jeden z najglosniejszych dzwiekow w oceanie.",
     category: "animals",
     emoji: "🦩",
   },
@@ -828,13 +828,13 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s12",
-    text: "DNA jednego czlowieka, rozciagiete w linii prostej, siegneloby od Ziemi do Slonca i z powrotem ok. 300 razy. Kazda z ok. 37 bilionow komorek ciala zawiera ok. 2 metry DNA.",
+    text: "Ludzkie cialo zbudowane jest z okolo 7 tryliardow tryliardow atomow (7 z 27 zerami) — to wiecej, niz jest gwiazd w calym obserwowalnym Wszechswiecie. Wiekszosc z nich to lekki wodor, powstaly tuz po Wielkim Wybuchu.",
     category: "science",
     emoji: "🧬",
   },
   {
     id: "s13",
-    text: "Dzwiek podrozuje 4x szybciej w wodzie niz w powietrzu (ok. 1480 m/s vs. 343 m/s). W stali porusza sie az 5100 m/s - dlatego przykladajac ucho do szyn kolejowych mozna uslyszec pociag znacznie wczesniej niz dotarloby powietrzne echo.",
+    text: "Metale rozszerzaja sie od ciepla. Dlatego w mostach, szynach i torach zostawia sie szczeliny dylatacyjne, a stalowa wieza Eiffla latem jest wyzsza o kilkanascie centymetrow niz zima. Ta sama zasada napedza klasyczne termometry.",
     category: "science",
     emoji: "🔊",
   },
@@ -846,7 +846,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s15",
-    text: "Promieniowanie rentgenowskie odkryto przez przypadek. Wilhelm Röntgen w 1895 roku zauwazyl, ze fluorescencyjny ekran po drugiej stronie pokoju swieci, gdy eksperymentowal z promieniami katodowymi.",
+    text: "Jeden piorun niesie tyle energii, ze wystarczyloby jej na tygodnie swiecenia zarowki — ale trwa ulamek sekundy. Mimo prob nie potrafimy 'zlapac' i zmagazynowac tej mocy: uderzenie jest zbyt krotkie i zbyt gwaltowne.",
     category: "science",
     emoji: "☢️",
   },
@@ -858,7 +858,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s17",
-    text: "Penicyline odkryl Alexander Fleming przez przypadek w 1928 roku - zabila bakterie na plytce Petriego, ktora zapomnial zamknac. To odkrycie uratowalo szacunkowo 200 milionow ludzkich zyc.",
+    text: "Teflon, znany z patelni, odkryto przypadkiem podczas prac nad gazami chlodniczymi w 1938 roku. Chemik znalazl w pojemniku sliski bialy proszek, do ktorego niemal nic sie nie kleilo i ktory znosil wysokie temperatury. Dzis powleka sie nim tez implanty i czesci statkow kosmicznych.",
     category: "science",
     emoji: "💊",
   },
@@ -960,13 +960,13 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a13",
-    text: "Niedźwiedzie polarne maja czarna skore - ich futro jest bezbarwne i przezroczyste, a nie biale. Czarna skora lepiej pochłania cieplo sloneczne, co pomaga im przezywac w arktycznym klimacie.",
+    text: "Kot niemal zawsze lada na cztery lapy dzieki 'odruchowi prostowania' — bledniki w uchu wykrywaja gore i dol, a zwierze blyskawicznie obraca cialo w locie. Co zaskakujace, koty spadajace z bardzo wysokich pieter miewaja mniej obrazen niz te z niskich, bo zdazaja sie 'ustawic' i rozluznic.",
     category: "animals",
     emoji: "🐻‍❄️",
   },
   {
     id: "a14",
-    text: "Slimaki moga spac przez 3 lata z rzędu. Gdy warunki sa niekorzystne (susza, zimno), slimak chowa sie w muszle i wpada w stan uśpienia (estywacja), czekajac na lepsze czasy.",
+    text: "Sowa potrafi obrocic glowe o okolo 270 stopni. Ma do tego dodatkowe kregi szyjne i specjalne 'zapasowe' naczynia krwionosne, ktore nie pozwalaja odcac doplywu krwi do mozgu podczas skretu. Dzieki temu, majac nieruchome oczy, i tak widzi niemal dookola.",
     category: "animals",
     emoji: "🐌",
   },
@@ -978,7 +978,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a16",
-    text: "Delfiny nadaja unikalnym 'imiona' swoim dzieciom zaraz po urodzeniu - sekwencje gwizd, ktore odpowiadaja tylko temu konkretnemu osobnikowi. Inne delfiny uzywaja jego 'imienia' przez cale zycie.",
+    text: "Termity buduja kopce z naturalna klimatyzacja. Siec kominow i kanalow utrzymuje wewnatrz niemal stala temperature i wilgotnosc mimo upalow na zewnatrz. Architekci podpatruja te rozwiazania, projektujac budynki chlodzone bez pradu.",
     category: "animals",
     emoji: "🐬",
   },
@@ -1318,7 +1318,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s20",
-    text: "Piorun nagrzewa powietrze do ok. 30 000 K - to 5 razy wiecej niz temperatura powierzchni Slonca (ok. 5800 K). Szybkie rozszerzenie tego supergoracego powietrza tworzy grzmot.",
+    text: "Rozgrzane szklo daje sie ciagnac w cienkie wlokna. Swiatlowody to wlasnie nitki szkla cienszy od wlosa, przez ktore sygnal biegnie z predkoscia swiatla, odbijajac sie od scianek. To dzieki nim internet przeplywa przez oceany.",
     category: "science",
     emoji: "⚡",
   },
@@ -2371,7 +2371,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a26",
-    text: "Psy rozumieja emocje ludzkich twarzy — moga rozroznic smutna twarz od szczesliwej. To jedyne znane zwierze nie-naczelne zdolne do rozpoznawania ludzkich emocji na fotografiach.",
+    text: "Gepard nie moze polowac dlugo. Rozpedza sie do 100 km/h w kilka sekund, ale po okolo 30 sekundach musi przerwac poscig, bo grozi mu przegrzanie mozgu. Dlatego czesto rezygnuje z pogoni, nawet gdy jest tuz za zdobycza.",
     category: "animals",
     emoji: "🐕",
   },
@@ -2389,13 +2389,13 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a29",
-    text: "Niedzwiedzie polarne maja przezroczyste, nie biale wlosy. Wyglada na biale przez rozpraszanie swiatla jak wlokna swietlne. Pod futrem skora jest czarna — absorbuje cieplo sloneczne.",
+    text: "Luskowiec (pangolin) zwija sie w idealna, twarda kule pokryta luskami z keratyny — tak szczelnie, ze nie otworzy jej nawet lew. Jest jednoczesnie jednym z najczesciej przemycanych zwierzat swiata, poszukiwanym dla lusek i miesa.",
     category: "animals",
     emoji: "🐻‍❄️",
   },
   {
     id: "a30",
-    text: "Kalmary olbrzymie maja oczy o srednicy do 30 cm — to najwieksze oczy w krolestwie zwierzat. Potrzebuja ich do wykrywania slabej bioluminescencji drapieznikow na glebinach, gdzie nie dociera swiatlo dzienne.",
+    text: "Manat, czyli krowa morska, jest blizej spokrewniony ze sloniem niz z wielorybem — maja wspolnego ladowego przodka. Manaty maja nawet szczatkowe paznokcie na pletwach, pamiatke po nogach przodkow, i zywia sie wylacznie roslinami wodnymi.",
     category: "animals",
     emoji: "🦑",
   },
@@ -3385,7 +3385,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a35",
-    text: "Slonie rozpoznaja siebie w lustrze i sa jednym z niewielu gatunkow posiadajacych swiadomosc siebie. Potrafia placac po smierci bliskich i odwiedzaja 'groby' lat po stracie.",
+    text: "Dziobak to jeden z nielicznych ssakow skladajacych jaja. Samce maja na tylnych lapach jadowite ostrogi, a splaszczony dziob wyczuwa slabe pola elektryczne ofiar ukrytych w mule. Gdy odkryto go w Europie, uznano preparat za spreparowana mistyfikacje.",
     category: "animals",
     emoji: "🐘",
   },
@@ -3397,7 +3397,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a37",
-    text: "Delfin butlonosy spi polowicznie — jedna polkula mozgu odpoczywa, druga pozostaje aktywna. Dzieki temu plynie, wynurza sie do oddechu i obserwuje otoczenie podczas snu.",
+    text: "Sepy maja tak agresywny kwas zoladkowy, ze trawia bakterie i toksyny zabijajace inne zwierzeta — w tym zarazki jadu kielbasianego czy waglika. Dlatego moga bezkarnie zjadac padline, ktora dla wiekszosci stworzen bylaby smiertelna.",
     category: "animals",
     emoji: "🐬",
   },
@@ -3421,7 +3421,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a41",
-    text: "Osmiornica ma trzy serca i niebieska krew (miedz zamiast zelaza). Dwie trzecie jej neuronow sa w ramionach, nie w mozgu — kazde ramie moze rozwiazywac proste problemy samodzielnie.",
+    text: "Homary i langusty niemal nie starzeja sie tak jak my. Dzieki enzymowi telomerazie ich komorki dlugo pozostaja 'mlode', a zwierzeta rosna i sa plodne przez dziesieciolecia. Kres wyznacza im glownie coraz bardziej wyczerpujaca wymiana pancerza.",
     category: "animals",
     emoji: "🐙",
   },
@@ -3451,13 +3451,13 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a46",
-    text: "Niedźwiedź polarny ma czarna skore — bialy kolor to efekt rozpraszania swiatla w przezroczystych wlóknach futra. Czarna skora pochłania promieniowanie podczerwone i pomaga utrzymac cieplo w Arktyce.",
+    text: "Rog narwala to w rzeczywistosci wydluzony, spiralny zab (kiel) przebijajacy warge. Ma miliony zakonczen nerwowych i moze sluzyc jako czujnik wody oraz w rywalizacji samcow. Sredniowieczni kupcy sprzedawali te ciosy jako 'rogi jednorozca' za fortune.",
     category: "animals",
     emoji: "🐻‍❄️",
   },
   {
     id: "a47",
-    text: "Rekiny sa starsze niz drzewa. Pierwsze rekiny pojawily sie 450 mln lat temu, a pierwsze lasy — ok. 385 mln lat temu. Przezyly 5 wielkich wymieran, w tym to ktore zgladziło dinozaury.",
+    text: "Kon Przewalskiego to jedyny prawdziwie dziki kon, ktory nigdy nie zostal udomowiony. Wymarl na wolnosci, ale uratowano go dzieki hodowli w ogrodach zoologicznych i z powrotem wypuszczono na stepy Mongolii. Ma tez o jedna pare chromosomow wiecej niz kon domowy.",
     category: "animals",
     emoji: "🦈",
   },
@@ -3511,7 +3511,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a56",
-    text: "Mrowkojad moze zjesc 35 000 mrowek dziennie. Jego jezyk dlugosci 60 cm porusza sie 150 razy na minute pokryty kleista slina — owady nie maja czasu sie wyrwac.",
+    text: "Odmieniec jaskiniowy (olm), zwany 'ludzka rybka', zyje w calkowitej ciemnosci jaskin. Jest slepy, ma bladorozowa skore, moze dozyc ponad 100 lat i przetrwac nawet 10 lat bez jedzenia, niemal nie ruszajac sie z miejsca.",
     category: "animals",
     emoji: "🐾",
   },
@@ -3531,19 +3531,19 @@ export const FACTS_DB: Fact[] = [
   // Nauka — nowe
   {
     id: "s34",
-    text: "Gdybys wypelnil kule wszystkimi atomami z ludzkiego ciala, bylaby mniejsza niz ziarnko pieprzu. Atomy to prawie wylacznie pusta przestrzen — jadro stanowi jedynie 1/100 000 srednicy calego atomu.",
+    text: "Woda wrze w nizszej temperaturze wysoko w gorach. Na szczycie Everestu wystarczy okolo 70°C, bo cisnienie powietrza jest tam znacznie nizsze. Dlatego wysoko w gorach trudno ugotowac jajko na twardo — wrzatek jest po prostu chlodniejszy.",
     category: "science",
     emoji: "⚛️",
   },
   {
     id: "s35",
-    text: "Swiatlo potrzebuje 8 minut 20 sekund by dotrzec ze Slonca do Ziemi. Ale ten sam foton wydostaje sie z jadra Slonca na jego powierzchnie przez 10 000 do 170 000 lat, odbijajac sie od czasteczek plazmy.",
+    text: "Zloty kolor zlota to efekt... teorii wzglednosci. Elektrony w ciezkim atomie zlota poruszaja sie tak szybko, ze zmieniaja sposob pochlaniania swiatla — zamiast odbijac cale widmo jak srebro, zloto 'pozera' czesc niebieskiego i swieci na zolto.",
     category: "science",
     emoji: "☀️",
   },
   {
     id: "s36",
-    text: "Temperatura blysku pioruna wynosi ok. 30 000°C — 5x wiecej niz powierzchnia Slonca (6 000°C). Sam blysk trwa 1-2 mikrosekundy, ale grzmot trwa sekundy bo dzwiek jest wielokrotnie wolniejszy od swiatla.",
+    text: "Najgoretsze miejsce stworzone przez czlowieka to wnetrze zderzacza LHC pod Genewa. Podczas zderzen powstaje plazma miliony razy cieplejsza niz jadro Slonca — odtwarzajaca warunki z pierwszych ulamkow sekundy po Wielkim Wybuchu.",
     category: "science",
     emoji: "⚡",
   },
@@ -3555,7 +3555,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s38",
-    text: "Krysztaly sniegu nigdy nie maja dokladnie tego samego ksztaltu — ze wzgledu na miliony kombinacji wilgotnosci i temperatury. Jednak ich szesciokatna symetria jest zawsze perfekcyjna, wynikajac z budowy czasteczki H2O.",
+    text: "Suchy lod to zestalony dwutlenek wegla. Nie topi sie w kaluze jak zwykly lod — od razu paruje (sublimuje), przechodzac ze stanu stalego w gaz, z pominieciem cieczy. Stad efektowna, pelzajaca mgla uzywana na scenach i w teatrze.",
     category: "science",
     emoji: "❄️",
   },
@@ -3573,7 +3573,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s41",
-    text: "GPS musi uwzglednic teorie wzglednosci. Zegary na satelitach chodza 38 mikrosekund szybciej dziennie niz na Ziemi z powodu roznych grawitacji. Bez tej korekty nawigacja GPS mialaby blad kilkuset metrow dziennie.",
+    text: "Nagrode Nobla Einstein dostal nie za teorie wzglednosci, lecz za wyjasnienie efektu fotoelektrycznego — tego, ze swiatlo potrafi wybijac elektrony z metalu. To odkrycie lezy u podstaw paneli slonecznych i matryc w aparatach cyfrowych.",
     category: "science",
     emoji: "🛰️",
   },
@@ -3591,7 +3591,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s44",
-    text: "Mikrobiom czlowieka — bakterie jelitowe — wazy ok. 1-2 kg i sklada sie z ponad 100 bilionow drobnoustrojow. Produkuje ok. 90% serotoniny w organizmie i wplywa na nastroj, odpornosc i decyzje zywieniowe.",
+    text: "Diament jest najtwardszym naturalnym materialem — mozna go zarysowac praktycznie tylko innym diamentem. Ta twardosc bierze sie z niezwykle sztywnej sieci atomow wegla. Mimo to diament jest kruchy: mocne uderzenie moze go rozlupac.",
     category: "science",
     emoji: "🦠",
   },
@@ -3609,7 +3609,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s47",
-    text: "Dzwiek porusza sie przez stal 15x szybciej niz przez powietrze (5120 m/s vs 340 m/s), bo atomy metalu sa scisniete blizej siebie. Proznia dzwiek nie rozchodzi sie wcale — wymaga osrodka materialnego.",
+    text: "Sol kuchenna to zwiazek dwoch trucizn. Sod to metal, ktory wybucha w kontakcie z woda, a chlor to trujacy gaz bojowy. Polaczone w reakcji chemicznej daja jednak zupelnie nieszkodliwy, a wrecz niezbedny do zycia chlorek sodu (NaCl).",
     category: "science",
     emoji: "🔊",
   },
@@ -6189,7 +6189,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a66",
-    text: "Ośmiornica moze zmienić ksztalt i kolor w ulamku sekundy. Ma 2/3 neuronow w ramionach a nie w glowie. Jesli straci ramie, wyrasta nowe. Mozliwosc zmiany ksztaltu pozwala jej wlezc przez otwor wielkosci monety.",
+    text: "Wegorz elektryczny potrafi wytworzyc wyladowanie siegajace 600 woltow — dosc, by ogluszyc zdobycz lub odstraszyc drapieznika, a nawet powalic konia w wodzie. Sam jest odporny na wlasny prad dzieki budowie ciala dzialajacej jak zywa bateria.",
     category: "animals",
     emoji: "🐙",
   },
@@ -6207,7 +6207,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "a69",
-    text: "Bóbr jest zwierzeciem ktore najbardziej po czlowieku zmienia krajobraz. Jego tamy tworza rozlewiska nawilzajace tereny, podnoszace poziom wód gruntowych i tworzace siedliska dla setek gatunkow. Tam bobra moze miec powierzchnie kilku hektarów.",
+    text: "Wombat wydala odchody w ksztalcie szescianu — jako jedyne zwierze na swiecie. Kostki nie staczaja sie z kamieni i klod, na ktorych wombat je zostawia, znaczac swoje terytorium. Ksztalt powstaje dzieki nierownej elastycznosci scian jelita.",
     category: "animals",
     emoji: "🦫",
   },
@@ -6263,7 +6263,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s63",
-    text: "Zasada nieoznaczonosci Heisenberga (1927) mowi ze nie mozna jednoczesnie znac idealnie dokladnie polozenia i pedu czastki. To nie problem techniczny — to fundamentalna wlasciwosc natury. Pomiarem samym w sobie zaburzamy to co mierzymy.",
+    text: "Powietrze, ktorym oddychasz, to w okolo 78% azot, a tylko okolo 21% tlen. Reszta to gazy szlachetne i dwutlenek wegla. Co ciekawe, czysty tlen pod cisnieniem bylby dla czlowieka toksyczny — potrzebujemy go rozcienczonego azotem.",
     category: "science",
     emoji: "🔬",
   },
@@ -6281,7 +6281,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s66",
-    text: "Entropia — miara nieuporządkowania systemu — zawsze rosnie w zamknietym systemie (II zasada termodynamiki). Oznacza to ze wszechswiat nieodwracalnie zmierza ku wiekszemu nieuporządkowaniu. Za miliardy lat, po 'cieplnej smierci', nie bedzie juz zadnych procesów.",
+    text: "Ciecze nienewtonowskie zachowuja sie wbrew intuicji. Zawiesina maki ziemniaczanej w wodzie twardnieje pod uderzeniem, a plynie pod delikatnym naciskiem — mozna po niej biegac po powierzchni, ale stojac w miejscu, powoli sie w niej zapadasz.",
     category: "science",
     emoji: "♾️",
   },
@@ -6311,7 +6311,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "s71",
-    text: "Swiatlo sloneczne potrzebuje 8 minut by dotrzec do Ziemi, ale widzimy Slonce tam gdzie bylo 8 minut temu — nie tam gdzie jest teraz. Jesli Slonce znikneleby nagle, przez 8 minut niczego bysmy nie wiedzieli.",
+    text: "Skala pH jest logarytmiczna — kazdy stopien to dziesieciokrotna roznica. Kwas o pH 2 jest 10 razy mocniejszy niz o pH 3 i az 100 razy mocniejszy niz o pH 4. Dlatego niewielka zmiana pH oznacza ogromna zmiane kwasowosci.",
     category: "science",
     emoji: "☀️",
   },
@@ -10154,7 +10154,7 @@ export const FACTS_DB: Fact[] = [
   { id: "h88", category: "history", emoji: "🗺️", text: "Podboj Ameryki przez Hiszpanow byl mozliwy glownie dzieki chorobom, a nie przewadze militarnej. Ospa, odra i grypa zabiły 90% rdzennej ludnosci Ameryk w ciagu 100 lat. Azteckie imperium liczylo 20 milionow ludzi — Cortez mial 500 zolnierzy. Bez epidemii zaraznych chorob podboj bylby niemozliwy." },
   { id: "h89", category: "history", emoji: "📖", text: "W XV wieku wielka chinska flota admirala Zheng He plynela az do Afryki statkami wielokrotnie wiekszymi od karaweli Kolumba. Cesarz nagle zakazal jednak dalekomorskich wypraw, a potezne okrety pozostawiono, by zbutwialy. Chiny dobrowolnie wycofaly sie z oceanow na stulecia." },
   { id: "h90", category: "history", emoji: "🪙", text: "Pierwszy papierowy pieniadz na swiecie — chiński jiaozi z X wieku — byl prywatnym certyfikatem depozytowym. Rzad Song przejal emisje w XI wieku i szybko zaczal go dodrukowywac — pierwsza inflacja wywolana drukowaniem pieniedzy w historii. Dynastia Song splajtowala przez szalejaca inflacje, a dynastia Yuan powtorzyla ten blad 200 lat pozniej." },
-  { id: "s74", category: "science", emoji: "⚛️", text: "Atom jest w 99.9999999999996% pustą przestrzenią. Gdyby jadro atomu bylo kulka golfową, elektrony krazylby wokol niego w odleglosci 2 km. Mimo to materia wydaje sie stala — to sily elektromagnetyczne (odpychanie elektronow) powoduja ze obiekty nie przenikaja przez siebie. Twoje cialo nigdy nie dotknelo zadnego innego ciala — elektrony sie odpychaja." },
+  { id: "s74", category: "science", emoji: "⚛️", text: "Neony w reklamach swieca roznymi kolorami zaleznie od gazu w rurce. Czysty neon daje charakterystyczna czerwien, argon — blekit, a hel — pomaranczowo-rozowy blask. Kazdy gaz szlachetny ma wlasny, niepowtarzalny 'kolor' swiecenia." },
   { id: "s75", category: "science", emoji: "🧬", text: "Ludzki genom zawiera 3 miliardy par zasad DNA. Gdyby wyciagnac DNA z jednej komorki czlowieka i rozlozyc je prosto, mialoby 2 metry dlugosci. DNA ze wszystkich komorek ciala czlowieka (37 bilionow) polaczone w linie mialoby dlugosc 70 miliardow km — ponad 460 razy odleglosc Ziemi od Slonca." },
   { id: "s76", category: "science", emoji: "🌡️", text: "Absolutne zero (-273.15°C) jest fizyczna granica — atomu nie mozna schlodzic ponizej tej temperatury bo przestalby sie calkowicie ruszac. Jednak naukowcy zbliżyli sie do absolutnego zera na odleglosc miliardowych czesci stopnia. W tych temperaturach materia zachowuje sie dziwnie: niekiedy staje sie nadciekla (plynie bez tarcia) lub nadprzewodzaca." },
   { id: "s77", category: "science", emoji: "🔭", text: "Teoria wzglednosci Einsteina ma praktyczne zastosowanie kazdego dnia: zegary GPS-owe na satelitach biegna szybciej niz na Ziemi o 38 mikrosekund dziennie z powodu mniejszej grawitacji i predkosci orbitowania. Bez korekty relatywistycznej nawigacja GPS nabieralaby bledu 11 km dziennie. Einstein jest dokladnie tak wazny dla Google Maps jak dla fizyki." },
@@ -10200,7 +10200,7 @@ export const FACTS_DB: Fact[] = [
   { id: "sp84", category: "space", emoji: "🪐", text: "Jowisz jest tak wielki ze wszystkie inne planety Ukladu Slonecznego zmiescilyby sie w nim z zapasem. Jowisz nie ma twardej powierzchni — to gazowy gigant gdzie warstwa atmosfery przechodzi plynnie w ciekly wodor pod gigantycznym cisnieniem. Wielka Czerwona Plama (burza) na Jowiszu jest starsza niz 400 lat i wieksza od Ziemi, ale kurczy sie od dekad." },
   { id: "sp85", category: "space", emoji: "🌟", text: "Najblizsza gwiazda do Slonca — Proxima Centauri — jest w odleglosci 4.24 roku swietlnego. Przy obecnej predkosci sond kosmicznych (ok. 60 000 km/h) dotarcie do niej zajęłoby 70 000 lat. Proxima Centauri b — planeta w strefie habitabilnej — jest kandydatem do posiadania zycia, ale gwiazda emituje tak silne rozblyski ze moze to byc niemozliwe." },
   { id: "a74", category: "animals", emoji: "🦁", text: "Lew jest jedynym kotem zyjacym w grupach spolecznych (stadach). W stadzie samce glownie odpoczywaja — do 20 godzin dziennie — a samice wykonuja 80-90% polowań. Mimo to samce zjadaja jako pierwsze. Ryk lwa slyszalny jest z odleglosci 8 km. DNA lwow z Afryki Wschodniej i Zachodniej rozni sie bardziej niz DNA lwow od tygrysa." },
-  { id: "a75", category: "animals", emoji: "🐙", text: "Osmiornica ma trzy serca: dwa pompuja krew przez skrzela, jedno przez resztę ciała. Jej krew jest niebieska bo zamiast hemoglobiny (zelazowej) uzywa hemocyjaniny (miedziowej). Osmiornica ma 9 mozgow — jeden centralny i po jednym w kazdym ramieniu. Ramiona moga dzialac autonomicznie nawet po oderwaniu od ciała przez kilka minut." },
+  { id: "a75", category: "animals", emoji: "🐙", text: "Wielkie koty dziela sie na te, ktore rycza (lew, tygrys, lampart, jaguar), i te, ktore mrucza (m.in. gepard, puma). Decyduje o tym budowa kosci gnykowej w gardle. Zaden kot nie potrafi robic obu rzeczy naraz — lew nie zamruczy, a domowy kot nie zaryczy." },
   { id: "a76", category: "animals", emoji: "🐻", text: "Niedzwiedzie polarne nie sa biale — ich siersc jest bezbarwna i przezroczysta, a skora jest czarna (absorbuje cieplo sloneczne). Wlosy sa puste w srodku jak swiatłowody — kieruja swiatlo UV na czarna skore. Mit ze siersc jest zbudowana jak optyczne wlokna dzialajace jako 'solar collector' jest prawdopodobnie falszywy, ale czarna skora to fakt." },
   { id: "a77", category: "animals", emoji: "🦅", text: "Albatros moze przeleciec 120 000 km w roku krazac nad oceanami. Spi w locie — polowa mozgu spi, polowa czuwa. Nie dotyka ladu przez nawet 10 lat po wyfrunięciu z gniazda. Albatros wstaje tylko by sie rozmnozyc. Pary albatrosow lacza sie na całe zycie — ceremonialy zalotow sa tak skomplikowane ze nauka ich trwa latami." },
   { id: "a78", category: "animals", emoji: "🐘", text: "Sloń jest jedynym ssakiem ktory nie moze skakac. Moze jednak pływać — uzywajac trąby jak snorkela. Slonie rozpoznaja siebie w lustrze (jeden z niewielu gatunkow). Oplakuja zmarlych czlonkow stada nawet z innych gatunkow. Ich pamiec jest legendarna — rozpoznaja po kilku dekadach twarze ludzi ktorzy im kiedys zagrozili lub pomogli." },
