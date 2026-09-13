@@ -2826,7 +2826,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "mu22",
-    text: "Reggae zostało uznane przez UNESCO za Niematerialne Dziedzictwo Kulturowe Ludzkości w 2018 roku . Muzyka z Jamajki stała się symbolem walki o wolność i równość na całym świecie.",
+    text: "Reggae zostało uznane przez UNESCO za Niematerialne Dziedzictwo Kulturowe Ludzkości w 2018 roku. Muzyka z Jamajki stała się symbolem walki o wolność i równość na całym świecie.",
     category: "music",
     emoji: "🌿",
   },
@@ -3101,7 +3101,7 @@ export const FACTS_DB: Fact[] = [
   },
   {
     id: "lng18",
-    text: "Braille (alfabet dla niewidomych) został wynaleziony przez Louisa Braille'a , gdy miał 15 lat (1824) — sam oślepł w dzieciństwie. Uprościł wojskowe 'pismo nocne' Charles'a Barbiera do znaków złożonych z 6 punktów. W zasadniczej formie system używany jest do dziś.",
+    text: "Braille (alfabet dla niewidomych) został wynaleziony przez Louisa Braille'a, gdy miał 15 lat (1824) — sam oślepł w dzieciństwie. Uprościł wojskowe 'pismo nocne' Charles'a Barbiera do znaków złożonych z 6 punktów. W zasadniczej formie system używany jest do dziś.",
     category: "languages",
     emoji: "🔢",
   },
