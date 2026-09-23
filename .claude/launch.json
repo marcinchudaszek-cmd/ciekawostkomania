@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "app",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview"],
+      "port": 4173
+    },
+    {
+      "name": "warzelnik",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:\\Users\\marci\\Desktop\\pliki z aplikacji\\inne-projekty\\brewing-app-development\\node_modules\\vite\\bin\\vite.js",
+        "C:\\Users\\marci\\Desktop\\pliki z aplikacji\\inne-projekty\\brewing-app-development",
+        "--port",
+        "5199"
+      ],
+      "port": 5199
+    }
+  ]
+}
