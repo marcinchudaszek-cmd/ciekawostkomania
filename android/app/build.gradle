@@ -7,8 +7,8 @@ android {
         applicationId "com.ciekawostkomania.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode project.hasProperty('versionCode') ? project.versionCode.toInteger() : 21
-        versionName project.hasProperty('versionName') ? project.versionName : "1.2"
+        versionCode project.hasProperty('versionCode') ? project.versionCode.toInteger() : 22
+        versionName project.hasProperty('versionName') ? project.versionName : "1.2.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -18,10 +18,14 @@ android {
     }
     signingConfigs {
         release {
-            def ksPath = System.getenv("KEYSTORE_PATH") ?: "${projectDir}/ciekawostkomania.jks"
-            def ksPass = System.getenv("KEY_STORE_PASSWORD") ?: ""
-            def ksAlias = System.getenv("KEY_ALIAS") ?: "key0"
-            def ksKeyPass = System.getenv("KEY_PASSWORD") ?: ""
+            // Hasła NIE w kodzie: android/keystore.properties (nieśledzony) albo zmienne środowiskowe
+            def ksProps = new Properties()
+            def ksPropsFile = rootProject.file("keystore.properties")
+            if (ksPropsFile.exists()) { ksPropsFile.withInputStream { ksProps.load(it) } }
+            def ksPath = System.getenv("KEYSTORE_PATH") ?: (ksProps.getProperty("storeFile") ? rootProject.file(ksProps.getProperty("storeFile")).path : "${projectDir}/ciekawostkomania.jks")
+            def ksPass = System.getenv("KEY_STORE_PASSWORD") ?: ksProps.getProperty("storePassword")
+            def ksAlias = System.getenv("KEY_ALIAS") ?: (ksProps.getProperty("keyAlias") ?: "key0")
+            def ksKeyPass = System.getenv("KEY_PASSWORD") ?: ksProps.getProperty("keyPassword")
             storeFile file(ksPath)
             storePassword ksPass
             keyAlias ksAlias

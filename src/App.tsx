@@ -158,7 +158,7 @@ export default function App() {
 
   return (
     <div
-      className="min-h-screen"
+      className="min-h-dvh"
       style={{
         background:
           "linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #533483 75%, #7b2d8b 100%)",
@@ -195,7 +195,8 @@ export default function App() {
         ))}
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 py-8 sm:py-12 pb-24">
+      {/* viewport-fit=cover: odstęp od paska statusu i paska gestów */}
+      <div className="relative z-10 max-w-4xl mx-auto px-4 pt-[calc(2rem+var(--sa-top))] sm:pt-[calc(3rem+var(--sa-top))] pb-[calc(6rem+var(--sa-bottom))]">
 
         {/* === HERO HEADER === */}
         <header className="text-center mb-10">
